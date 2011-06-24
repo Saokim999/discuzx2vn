@@ -324,7 +324,7 @@ showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight"'), ar
 		<a href="http://www.comsenz.com/downloads/styles/discuz" class="lightlink2" target="_blank">Giao diện discuz</a>,
 		<a href="http://www.comsenz.com/downloads/plugins/discuz" class="lightlink2" target="_blank">Plugins</a>,
 		<a href="http://faq.comsenz.com" class="lightlink2" target="_blank">Điều lệ</a>,
-		<a href="http://www.traitimyenbai.net/" class="lightlink2" target="_blank">Trái Tim Yên Bái</a>'
+		<a href="http://www.traitimyenbai.net/" class="lightlink2" target="_blank">Trái Tim Yên Bái</a>
 		<a href="http://www.discuzviet.net/" class="lightlink2" target="_blank">Diễn đàn hỗ trợ Việt Nam</a>'
 ));
 showtablefooter();
