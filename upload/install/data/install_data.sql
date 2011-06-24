@@ -60,7 +60,7 @@ INSERT INTO pre_common_friendlink VALUES ('1','0','Discuz Việt','http://www.di
 INSERT INTO pre_common_friendlink VALUES ('3','2','FriendSky','http://friendsky.net/','','','2');
 INSERT INTO pre_common_friendlink VALUES ('4','3','LớpHọcIT','http://www.lophocit.com','','','2');
 INSERT INTO pre_common_friendlink VALUES ('5','1','TrườngIT','http://www.truongit.net','','','2');
-INSERT INTO pre_common_friendlink VALUES ('6','1','Trái Tim Yên Bái','http://traitimyenbai.net','Cộng đồng Yên Bái','http://traitimyenbai.net/img/logodz.gif','2');
+INSERT INTO pre_common_friendlink VALUES ('6','1','Trái Tim Yên Bái','http://traitimyenbai.net','Cộng đồng Yên Bái','static/image/common/ttyb.gif','2');
 
 
 
