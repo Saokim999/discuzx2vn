@@ -58,8 +58,5 @@ runhooks();
 $navtitle = str_replace('{bbname}', $_G['setting']['bbname'], $_G['setting']['seotitle']['forum']);
 
 require DISCUZ_ROOT.'./source/module/forum/forum_'.$mod.'.php';
-$discuzindex = 'PGNlbnRlcj5WaWV0bmFtZXNlIHRyYW5zbGF0aW9uIGJ5IDxhIGhyZWY9Imh0dHA6Ly9kaXNjdXp2aWV0Lm5ldCI+RENWIFRlYW08L2E+';
-echo base64_decode($discuzindex);
-
 
 ?>

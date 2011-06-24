@@ -39,9 +39,6 @@ define('CURMODULE', $mod);
 runhooks();
 
 require_once libfile('home/'.$mod, 'module');
-$discuzindex = 'PGNlbnRlcj5WaWV0bmFtZXNlIHRyYW5zbGF0aW9uIGJ5IDxhIGhyZWY9Imh0dHA6Ly9kaXNjdXp2aWV0Lm5ldCI+RENWIFRlYW08L2E+';
-echo base64_decode($discuzindex);
-
 
 
 ?>
