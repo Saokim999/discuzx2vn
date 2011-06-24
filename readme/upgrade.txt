@@ -1,0 +1,37 @@
+||==================================||
+    Tài liệu nâng cấp Discuz! X
+||==================================||
+
+Tài liệu này được thiết kế để giúp bạn chạy chương trình để nâng cấp lên phiên bản hiện tại nếu bạn chưa dùng Discuz! X, lần đầu tiên sử dụng chương trình chuyển đổi của chúng tôi.
+
+Trước khi bạn bắt đầu nâng cấp, hãy chắc chắn đã đọc kỹ những biện pháp phòng ngừa sau đây:
+
+1. Trước khi nâng cấp, bảo đảm chính xác rằng bạn sao lưu các dữ liệu ban đầu, chúng ta không thể được sử dụng trước khi nâng cấp mà không cần sao lưu
+    Cung cấp bất kỳ hỗ trợ kỹ thuật cho khách hàng
+2 Thông thường, chương trình nâng cấp của chúng tôi là file update.php, nó đã được đặt trong thư mục utilities của phiên bản phát hành. 
+3. Trong hầu hết trường hợp, bạn nâng cấp lên Discuz sản phẩm X!, sự cần thiết để tái thiết lập thành nền một, dù
+    Có phải một số tính năng có thể hoạt động tốt.
+4. Sau khi nâng cấp thành công, hãy xóa các chương trình cập nhật để tránh các vấn đề an ninh có thể
+
++--------------------------------------+
+  Phương pháp và các bước để nâng cấp
++--------------------------------------+
+1. Vào hệ thống ban đầu của bạn., đóng cửa trang web của bạn. Sao lưu dữ liệu.
+2. Up Discuz! X2.0 lên phiên bản mới nhất của diễn đàn của bạn, trừ các file config, và thư mục attachment, ucenter.
+3. Up file  /utilities/update.php lên thư mục install của diễn đàn của bạn. Và để đảm bảo rằng thư mục cài đặt
+    Chứa bộ cài đặt mới nhất.
+4. Chạy http://tên miền của bạn/install/update.php
+5. Theo chương trình này nhắc nhở cho đến khi hoàn thành tất cả các nâng cấp
+
++--------------------------------------+
+  Nâng cấp khắc phục sự cố
++--------------------------------------+
+Bạn gặp phải bất kỳ vấn đề trong quá trình nâng cấp có thể được giải quyết thông qua các kênh sau
+
+1. Để diễn đàn của chúng tôi để tìm sự giúp đỡ và hỗ trợ
+    http://www.discuz.net
+
+2. Xem các tài liệu cập nhật hướng dẫn chi tiết
+    http://faq.comsenz.com/category-202
+
+3. người dùng thương mại có thể mua dịch vụ của bạn, gọi điện thoại, MSN, QQ, diễn đàn hỗ trợ kỹ thuật và các phương tiện khác
