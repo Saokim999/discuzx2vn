@@ -6193,4 +6193,4 @@ if(file_exists($adminextendfile = DISCUZ_ROOT.'./data/cache/cache_adminextend.ph
 	}
 }
 
-?>?>
+?>
