@@ -971,7 +971,7 @@ function showEditorMenu(tag, params) {
 				str = '<p class="pbn">Xin vui lòng nhập địa chỉ file Flash:</p><p class="pbn"><input type="text" id="' + ctrlid + '_param_1" class="px" value="" style="width: 220px;" /></p><p class="pbn">Rộng: <input id="' + ctrlid + '_param_2" size="5" value="" class="px" /> &nbsp; Cao: <input id="' + ctrlid + '_param_3" size="5" value="" class="px" /></p><p class="xg2 pbn">Hỗ trợ swf flv Flash<br />Ví dụ: http://server/flash.swf</p>';
 				break;
 			case 'pasteword':
-				stitle = 'Dán nội dung từ MSWord';
+				stitle = 'Dán nội dung từ Microsoft Office Word';
 				str = '<p class="px" style="height:300px"><iframe id="' + ctrlid + '_param_1" frameborder="0" style="width:100%;height:100%" onload="this.contentWindow.document.body.style.width=\'550px\';this.contentWindow.document.body.contentEditable=true;this.contentWindow.document.body.focus();this.onload=null"></iframe></p><p class="xg2 pbn">Ấn (Ctrl+V) từ file .doc</p>';
 				menuwidth = 600;
 				menupos = '00';
