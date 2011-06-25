@@ -667,7 +667,7 @@ $lang = array (
   'favorite_does_not_exist' => 'Có lỗi, Các bộ sưu tập mà bạn chỉ định không tồn tại',
   'no_privilege' => 'Có lỗi, Hiện tại, bạn không được phép làm điều này<a href="home.php?mod=spacecp&ac=usergroup">Click vào đây để xem quyền hạn</a>',
   'favorite_cannot_favorite' => 'Có lỗi, Bạn có thể thu thập thông tin',
-  'favorite_repeat' => 'Có lỗi, Vui lòng không đặt Yêu thích 2 lần cùng một chủ đề',
+  'favorite_repeat' => 'Có lỗi, Không đặt Yêu thích 2 lần cùng một chủ đề',
   'favorite_do_success' => 'Thông tin bộ sưu tập thành công ',
 
   'feed_no_found' => 'Có lỗi, Để xem các hoạt động mà bạn chỉ định không tồn tại',
@@ -761,7 +761,7 @@ $lang = array (
 
   'showcredit_fuid_error' => 'Có lỗi, Người dùng không phải là bạn của bạn, hãy chắc chắn',
   'showcredit_friend_do_success' => 'Quà tặng thành công, bạn bè của bạn sẽ được thông báo',
-  'showcredit_do_success' => 'Danh sách các điểm để tăng sự thành công của bảng xếp hạng mới nhất của họ lên xem nó',
+  'showcredit_do_success' => 'Đặt giá để lên TOP thành công',
 
   'upload_images_completed' => 'Đăng ảnh thành công ',
   'no_privilege_upload' => 'Có lỗi, Hiện tại bạn được phép tải lên hình ảnh, <a href="home.php?mod=spacecp&ac=usergroup">Click vào đây để xem quyền hạn</a>',
