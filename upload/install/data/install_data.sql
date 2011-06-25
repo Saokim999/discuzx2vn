@@ -429,7 +429,7 @@ INSERT INTO pre_common_setting VALUES ('smrows','5');
 INSERT INTO pre_common_setting VALUES ('smthumb','20');
 INSERT INTO pre_common_setting VALUES ('spacedata','a:11:{s:9:\"cachelife\";s:3:\"900\";s:14:\"limitmythreads\";s:1:\"5\";s:14:\"limitmyreplies\";s:1:\"5\";s:14:\"limitmyrewards\";s:1:\"5\";s:13:\"limitmytrades\";s:1:\"5\";s:13:\"limitmyvideos\";s:1:\"0\";s:12:\"limitmyblogs\";s:1:\"8\";s:14:\"limitmyfriends\";s:1:\"0\";s:16:\"limitmyfavforums\";s:1:\"5\";s:17:\"limitmyfavthreads\";s:1:\"0\";s:10:\"textlength\";s:3:\"300\";}');
 INSERT INTO pre_common_setting VALUES ('spacestatus','1');
-INSERT INTO pre_common_setting VALUES ('srchhotkeywords','Hoạt động\r\nKết bạn\r\ndiscuz');
+INSERT INTO pre_common_setting VALUES ('srchhotkeywords','Hot Girl\r\nDownload\r\ndiscuz');
 INSERT INTO pre_common_setting VALUES ('starthreshold','2');
 INSERT INTO pre_common_setting VALUES ('statcode','');
 INSERT INTO pre_common_setting VALUES ('statscachelife','180');
