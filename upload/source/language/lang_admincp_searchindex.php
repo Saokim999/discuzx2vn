@@ -179,11 +179,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      'Dấu chìm' => 'action=setting&operation=imgwater',
+      'Watermark' => 'action=setting&operation=imgwater',
     ),
     'text' =>
     array (
-      0 => 'Dấu chìm',
+      0 => 'Watermark',
     ),
   ),
   16 =>
