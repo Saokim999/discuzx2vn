@@ -42,14 +42,14 @@ $lang = array
 	'pic_comment_reply' => '{actor} đã trả lời <a href="{url}" target="_blank"> bình luận hình ảnh</a> của bạn',
 	'blog_comment_reply' => '{actor} đã trả lời <a href="{url}" target="_blank"> bình luận nhật ký</a> của bạn',
 	'share_comment_reply' => '{actor} đã trả lời <a href="{url}" target="_blank"> bình luận chia sẻ </a> của bạn',
-	'wall' => '{actor} đã nhận xét <a href="{url}&fchannel=nwall" target="_blank"> lời nhắn </a>của bạn',
+	'wall' => '{actor} để lại lời nhắn tại <a href="{url}&fchannel=nwall" target="_blank">Tường</a>của bạn',
 	'pic_comment' => '{actor} đã bình luận <a href="{url}" target="_blank"> hình ảnh </a>của bạn',
 	'blog_comment' => '{actor} đã bình luận nhật ký của bạn <a href="{url}" target="_blank">{subject}</a>',
 	'share_comment' => '{actor} đã bình luận <a href="{url}" target="_blank">chia sẻ</a> của bạn',
 	'click_blog' => '{actor} đã để biểu cảm với blog <a href="{url}" target="_blank">{subject}</a> của bạn',
 	'click_pic' => '{actor} đã để biểu cảm với <a href="{url}" target="_blank">hình ảnh</a> của bạn',
 	'click_article' => '{actor} đã để biểu cảm với <a href="{url}" target="_blank">tác phẩm </a>của bạn',
-	'show_out' => '{actor} sau khi ghé thăm blog của bạn, vị trị của bạn trên bảng xếp hạng cũng thay đổi theo',
+	'show_out' => '{actor} đã ghé thăm Blog của bạn làm tăng lượt truy cập và thứ hạng',
 	'puse_article' => 'Chúc mừng bạn, chủ đề <a href="{url}" target="_blank">{subject}</a>của bạn đã được đề cử đến portal, <a href="{newurl}" target="_blank">click để xem</a>',
 
 	'myinvite_request' => 'Tin ứng dụng mới<a href="home.php?mod=space&do=notice&view=userapp"> Click vào đây để vào các hoạt động ứng dụng liên quan</a>',
@@ -150,7 +150,7 @@ Tính đến nay, bạn đã bị cảnh báo {authorwarnings} lần, xin lưu �
 
 	'comment_add' => '{actor} bình luận trong chủ đề của bạn <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> nội dung &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Xem &rsaquo;</a>',
 
-	'reppost_noticeauthor' => '{actor} trả lời bài viết của bạn <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Xem</a>',
+	'reppost_noticeauthor' => '{actor} trả lời bài viết: <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> của bạn&nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Xem</a>',
 
 	'task_reward_credit' => 'Chúc mừng hoàn thành nhiệm vụ: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, phần thưởng {creditbonus} điểm &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Điểm của tôi &rsaquo;</a></p>',
 
