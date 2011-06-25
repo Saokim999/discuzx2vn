@@ -9,7 +9,7 @@
 
 $extend_lang = array
 (
-	'header_cloud' => 'Điện toán đám mây',
+	'header_cloud' => 'ĐTĐM',
 	'header_navcloud' => 'Điện toán đám mây diễn đàn Discuz!',
 	'nav_cloud' => 'Điện toán đám mây Discuz!',
 
@@ -34,7 +34,7 @@ $extend_lang = array
 	'close' => 'Đóng',
 	'continue' => 'Tiếp tục',
 	'message_title' => 'Thông báo',
-	'jump_to_cloud' => '您即将转向Discuz!云平台（http://cp.discuz.qq.com）完成开通流程',
+	'jump_to_cloud' => 'You are about to turn Discuz! Cloud platform (http://cp.discuz.qq.com) to complete the opening process',
 
 	'cloud_status_error' => '出了点小错,可能由于站点信息丢失导致Discuz!云平台服务出现异常,如果有疑问请访问<a href="http://www.discuz.net" target="_blank">官方论坛</a>寻求帮助',
 
