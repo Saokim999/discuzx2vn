@@ -1,7 +1,7 @@
 # RewriteEngine
 RewriteEngine On
 
-RewriteBase /yourfolderinstaldiscuz
+RewriteBase /forum
 
 # Rewrite
 RewriteCond %{QUERY_STRING} ^(.*)$
