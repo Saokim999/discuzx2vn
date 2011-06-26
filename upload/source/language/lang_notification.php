@@ -148,7 +148,7 @@ Tính đến nay, bạn đã bị cảnh báo {authorwarnings} lần, xin lưu �
 
 	'reward_bestanswer_moderator' => 'Chủ đề phần thưởng của bạn <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Câu trả lời hay nhất được chọn &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Xem &rsaquo;</a>',
 
-	'comment_add' => '{actor} bình luận trong chủ đề của bạn <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> nội dung &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Xem &rsaquo;</a>',
+	'comment_add' => '{actor} bình luận trong chủ đề <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> của bạn&nbsp;<a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Xem &rsaquo;</a>',
 
 	'reppost_noticeauthor' => '{actor} trả lời bài viết: <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> của bạn&nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Xem</a>',
 
