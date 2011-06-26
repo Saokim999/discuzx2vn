@@ -354,7 +354,7 @@ $lang = array (
   'custommenu_add_succeed' => 'menu {title} đã được thêm vào thành công các hoạt động thông thường và sẽ trở lại trang trước đó, bạn có thể chỉnh sửa<a href="{ADMINsCRIPt}?action=misc&operation=custommenu">hoạt động phổ biến ở đây</a>',
 
   'plugins_validator_enable_confirm' => '<h4 class="infotitle3">Plug-in này không phải là plug-in ban đầu bạn chắc chắn muốn mở nó?</h4>',
-  'plugins_enable_succeed' => 'Plug-in cho phép',
+  'plugins_enable_succeed' => 'Plugin đã được cho phép hoạt động',
   'plugins_conflict' => 'Plug-in cho phép</h4><br />Lời khuyên: Bạn chỉ cần cắm và một số plug-in cho phép sự tồn tại của điểm nhúng phổ biến. Mặc dù là điểm chung nhúng là một tình hình bình thường, nhưng nếu bạn gặp plug-in không chạy được, xin vui lòng liên lạc kịp thời các plug-in tác giả.<a href="javascript:;" onclick="display(\'conflict\')">[Click để xem]</a><br /><div id="conflict" style="display:none"><br />{plugins}<br /></div><br />',
   'plugins_disable_succeed' => 'Cắm-là đóng cửa',
   'plugins_import_var_invalid' => 'Plug-in tên móc là không hợp pháp, không thể được nhập khẩu',
