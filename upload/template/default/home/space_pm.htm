@@ -91,7 +91,7 @@
 				<!--{if $list && $daterange && !$touid}-->
 					<!--{if empty($lastanchor)}--><a name="last"></a><!--{eval $lastanchor=1;}--><!--{/if}-->
 					<div class="pm_g cl">
-						<h2 class="mbm xs2"><span class="xi1">$membernum</span> {lang pm_members_message} : <span class="xi2">$subject</span></h2>
+						<h2 class="mbm xs2">Tham gia:<span class="xi1">$membernum</span> người {lang pm_members_message} : <span class="xi2">$subject</span></h2>
 						<div class="pm_sd">
 							<ul class="pm_mem_l pm_admin">
 							<!--{loop $chatpmmemberlist $key $value}-->
@@ -466,7 +466,7 @@
 										<!--{elseif $value['pmtype'] == 2}-->
 											<table>
 												<tr>
-													<td valign="top" width="65">$value[members] {lang pm_members_message} :</td>
+													<td valign="top" width="65">Tham gia: $value[members] người {lang pm_members_message} :</td>
 													<td>
 														<p><a href="home.php?mod=space&do=pm&subop=view&plid=$value[plid]&type=1&daterange=$value[daterange]#last" id="pmlist_$value[plid]_a">$value[subject]</a></p>
 														<!--{if $value[lastauthorid]}-->
