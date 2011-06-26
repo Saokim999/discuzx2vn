@@ -42,7 +42,7 @@ $lang = array (
   'register_password_tips' => 'Vui lòng điền mật khẩu',
   'register_repassword_tips' => 'Vui lòng nhập lại mật khẩu 1 lần nữa',
   'register_username_tips' => 'Tên tài khoản từ 3 đến 15 ký tự',
-  'rulemessage' => 'Điều khoản',
+  'rulemessage' => ' Điều khoản',
 );
 
 ?>

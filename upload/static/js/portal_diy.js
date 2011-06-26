@@ -833,7 +833,7 @@ drag.extend({
 		} else {
 			if (!this.isChange) {
 				window.onbeforeunload = function() {
-					return 'Dữ liệu của bạn đã được chỉnh sửa, nếu bạn đăng xuất nó sẽ không được lưu.';
+					return 'Dữ liệu của bạn đã được chỉnh sửa, nếu bạn đăng xuất sẽ bị mất.';
 				};
 			}
 			this.isChange = true;
