@@ -303,7 +303,7 @@ $lang = array (
   'members_edit_groups_succeed' => 'người sử dụng để chỉnh sửa các nhóm người sử dụng thuộc tính thành công của',
   'members_edit_credits_succeed' => 'người sử dụng để chỉnh sửa hội nhập thành công',
   'members_edit_medals_succeed' => 'chỉnh sửa người dùng huy chương thành công',
-  'members_edit_illegal' => 'Bạn có thể không trực tiếp ngăn chặn người sử dụng,<a href="{ADMINsCRIPt}?action=members&operation=search&uid={uid}&submit=yes&frames=yes" target="_blank">Chỉnh sửa </a> để loại bỏ của nó“{grouptitle}”Identity',
+  'members_edit_illegal' => 'Bạn không thể cấm Nhóm Quản trị, Bạn cần <a href="{ADMINsCRIPt}?action=members&operation=search&uid={uid}&submit=yes&frames=yes" target="_blank">Chỉnh sửa</a> thành viên này ra khỏi nhóm “{grouptitle}” để tiếp tục',
   'members_edit_reason_invalid' => 'Bạn đã không nhập những lý do cho sự thay đổi này',
   'members_not_found' => 'chỉ định người dùng không tìm thấy',
   'members_access_succeed' => 'chỉ định các cho phép người dùng để cập nhật thành công của trang web',

@@ -78,7 +78,7 @@ $lang = array
 	'menu_profilefields' => 'Thêm thông tin',
 	'menu_admingroups' => 'Nhóm quản lý',
 	'menu_usergroups' => 'Nhóm thành viên',
-	'menu_hotuser' => 'Nổi bật',
+	'menu_hotuser' => 'Thành viên Hot',
 	'menu_defaultuser' => 'Giới thiệu bạn',
 
 	'menu_moderate_posts' => 'Bài viết',
