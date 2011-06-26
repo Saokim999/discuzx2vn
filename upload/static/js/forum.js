@@ -223,7 +223,7 @@ function fastpostvalidate(theform, noajaxpost) {
 		theform.subject.focus();
 	}
 	if(!disablepostctrl && ((postminchars != 0 && mb_strlen(theform.message.value) < postminchars) || (postmaxchars != 0 && mb_strlen(theform.message.value) > postmaxchars))) {
-		s = 'Độ dài bài viết chưa đúng. \n\n Độ dài hiện tại: ' + mb_strlen(theform.message.value) + ' ' + 'ký tự\nHệ thống giới hạn từ: ' + postminchars + ' đến ' + postmaxchars + ' ký tự';
+		s = 'Độ dài bài viết lỗi. \n\n Độ dài hiện tại: ' + mb_strlen(theform.message.value) + ' ' + 'ký tự\nHệ thống giới hạn từ: ' + postminchars + ' đến ' + postmaxchars + ' ký tự';
 	}
 	if(s) {
 		showError(s);
