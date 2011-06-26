@@ -81,12 +81,12 @@ INSERT INTO pre_common_member_profile_setting VALUES('realname', 1, 0, 0, 'Tên 
 INSERT INTO pre_common_member_profile_setting VALUES('gender', 1, 0, 0, 'Giới tính', '', 0, 0, 0, 0, 0, 0, 1, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('birthyear', 1, 0, 0, 'Năm sinh', '', 0, 0, 0, 0, 0, 0, 1, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('birthmonth', 1, 0, 0, 'Tháng', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('birthday', 1, 0, 0, 'ngày', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
+INSERT INTO pre_common_member_profile_setting VALUES('birthday', 1, 0, 0, 'Ngày sinh', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('constellation', 1, 1, 0, 'Chòm sao', 'Chòm sao(Tự động tính toán theo ngày sinh)', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('zodiac', 1, 1, 0, 'Tuổi', 'Tuổi(Tự động tính toán theo ngày sinh)', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('telephone', 1, 1, 0, 'ĐT', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('mobile', 1, 1, 0, 'Di động', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('idcardtype', 1, 1, 0, 'Xác nhận', 'CMND Hộ chiếu Thẻ SV', 0, 0, 0, 0, 0, 0, 0, 'select', 0, 'CMND\nHộ chiếu\nThẻ SV', '');
+INSERT INTO pre_common_member_profile_setting VALUES('idcardtype', 1, 1, 0, 'Loại giấy tờ', 'CMND Hộ chiếu Thẻ SV', 0, 0, 0, 0, 0, 0, 0, 'select', 0, 'CMND\nHộ chiếu\nThẻ SV', '');
 INSERT INTO pre_common_member_profile_setting VALUES('idcard', 1, 1, 0, 'Mã số', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('address', 1, 1, 0, 'Địa chỉ', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('zipcode', 1, 1, 0, 'Zipcode', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
@@ -101,7 +101,7 @@ INSERT INTO pre_common_member_profile_setting VALUES('residedist', 1, 0, 0, 'Huy
 INSERT INTO pre_common_member_profile_setting VALUES('residecommunity', 1, 0, 0, 'Phường', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('residesuite', 0, 0, 0, 'Số nhà', 'Khu', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('graduateschool', 1, 0, 0, 'Trường học', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('education', 1, 0, 0, 'Học vị', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, 'Tiến sĩ\nThạc sĩ\nCử nhân\nCao đẳng\nTrung cấp\nTiểu học\nKhác', '');
+INSERT INTO pre_common_member_profile_setting VALUES('education', 1, 0, 0, 'Học vị', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, 'Giáo sư\nTiến sĩ\nĐại học\nCao đẳng\nTrung cấp\nHọc sinh\nKhác', '');
 INSERT INTO pre_common_member_profile_setting VALUES('company', 1, 0, 0, 'Công ty', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('occupation', 1, 0, 0, 'Nghề nghiệp', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('position', 1, 0, 0, 'Chức vụ', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
@@ -117,7 +117,7 @@ INSERT INTO pre_common_member_profile_setting VALUES('qq', 1, 1, 0, 'QQ', '', 0,
 INSERT INTO pre_common_member_profile_setting VALUES('yahoo', 0, 1, 0, 'YAHOO', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('msn', 1, 1, 0, 'MSN', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('taobao', 1, 1, 0, 'Zing', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('site', 1, 0, 0, 'website', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
+INSERT INTO pre_common_member_profile_setting VALUES('site', 1, 0, 0, 'Website', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('bio', 1, 1, 0, 'Tự giới thiệu', '', 0, 0, 0, 0, 0, 0, 0, 'textarea', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('interest', 1, 0, 0, 'Sở thích', '', 0, 0, 0, 0, 0, 0, 0, 'textarea', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('field1', 0, 1, 0, 'Tùy chọn 1', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
@@ -156,7 +156,7 @@ INSERT INTO pre_common_nav VALUES ('', '0', 'Mobile', '', 'forum.php?mobile=yes'
 INSERT INTO pre_common_nav VALUES ('', '0', 'Blog', '', 'home.php?mod=space&do=blog', 'blog', 0, 0, 1, 2, 0, 0, 0, 0, '{STATICURL}image/feed/blog.gif', 'Đăng', 'home.php?mod=spacecp&ac=blog', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', 'Album', '', 'home.php?mod=space&do=album', 'album', 0, 0, 1, 3, 0, 0, 0, 0, '{STATICURL}image/feed/album.gif', 'Upload', 'home.php?mod=spacecp&ac=upload', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', 'Chia sẻ', '', 'home.php?mod=space&do=share', 'share', 0, 0, 1, 4, 0, 0, 0, 0, '{STATICURL}image/feed/share.gif', 'Thêm', 'home.php?mod=spacecp&ac=share', 2, '');
-INSERT INTO pre_common_nav VALUES ('', '0', 'Hồ sơ', '', 'home.php?mod=space&do=doing', 'doing', 0, 0, 1, 5, 0, 0, 0, 0, '{STATICURL}image/feed/doing.gif', '', '', 2, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Status', '', 'home.php?mod=space&do=doing', 'doing', 0, 0, 1, 5, 0, 0, 0, 0, '{STATICURL}image/feed/doing.gif', '', '', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '{userpanelarea1}', '', '', '', 0, 0, 1, 6, 0, 0, 0, 0, '', '', '', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '{hr}', '', '', '', 0, 1, 1, 7, 0, 0, 0, 0, '', '', '', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '{userpanelarea2}', '', '', '', 0, 0, 1, 8, 0, 0, 0, 0, '', '', '', 2, '');
