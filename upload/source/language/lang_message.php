@@ -620,9 +620,9 @@ $lang = array (
   'click_error' => 'Có lỗi, Bạn không phải là vị trí hoạt động bình thường',
   'click_item_error' => 'các đối tượng không tồn tại',
   'no_privilege_click' => 'Có lỗi, Hiện tại, bạn không được phép,<a href="home.php?mod=spacecp&ac=usergroup">Click vào đây để xem quyền hạn</a>',
-  'click_no_self' => 'Bạn chọn chính mình',
-  'click_have' => 'Bạn có thái độ để bàn',
-  'click_success' => 'chịn vị trí thành công ',
+  'click_no_self' => 'Bạn không được đánh giá chính mình',
+  'click_have' => 'Bạn đã đánh giá rồi',
+  'click_success' => 'Bạn đã đánh giá thành công',
 
   'no_privilege_comment_edit' => 'Có lỗi, Bạn không được phép chỉnh sửa chú thích này',
   'no_privilege_comment_del' => 'Có lỗi, Bạn không có quyền xóa chú thích này',
