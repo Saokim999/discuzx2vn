@@ -35,7 +35,7 @@ $lang = array
 	'post_thread' => 'Bài mới',
 
 	'price' => 'Giá',
-	'pay_view' => 'Ghi chép',
+	'pay_view' => 'Danh sách mua',
 	'attachment_buy' => 'Mua',
 
 	'post_trade_yuan' => 'Đồng',

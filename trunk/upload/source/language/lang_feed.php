@@ -14,7 +14,7 @@ $lang = array
 	'feed_blog_title' => '{actor} đã đăng nhật ký mới',
 	'feed_blog_body' => '<b>{subject}</b><br />{summary}',
 	'feed_album_title' => '{actor} đã cập nhập album',
-	'feed_album_body' => '<b>{album}</b><br /> tất cả {picnum} bức hình',
+	'feed_album_body' => '<b>{album}</b><br /> Tất cả có {picnum} bức hình',
 	'feed_pic_title' => '{actor} upload hình ảnh mới',
 	'feed_pic_body' => '{title}',
 

@@ -3779,9 +3779,9 @@ $lang = array
 	'specialuser_defaultuser' => 'Giới thiệu bạn bè',
 	'specialuser_defaultuser_tips' => '<li>Sau đây là danh sách của bạn bè. Để thêm bạn bè.</li><li>Các nhỏ hơn giá trị đề nghị ưu tiên, cao hơn các ưu tiên.</li>',
 	'specialuser_defaultuser_add_tips' => '<li>Cùng tên người dùng và lý do để được điền.</li><li>Nếu đã thêm thì không được lặp lại.</li>',
-	'specialuser_hotuser' => '明星会员',
-	'specialuser_hotuser_tips' => '<li>以下为明星会员列表，没推荐则为空。可添加推荐。</li><li>推荐优先级的数值越小，优先级越高。</li>',
-	'specialuser_order' =>'推荐优先级',
+	'specialuser_hotuser' => 'Thành viên nổi tiếng',
+	'specialuser_hotuser_tips' => '<li>Đây là danh sách thành viên nổi bật</li><li>The smaller the value of the priority recommendations, the higher the priority.</li>',
+	'specialuser_order' =>'Thứ tự ưu tiên',
 
 	'doing_tips' => '<li>Hồ sơ quản lý thông tin cho hàng loạt xóa các bản ghi để sử dụng và trả lại cùng với việc xóa tương ứng.</li><li>Từ khoá vòng loại {x} có thể được dùng để giới hạn giữa hai nhân vật giáp của văn bản có thể được bỏ qua, x là để bỏ qua số lượng các ký tự, chẳng hạn như "một s {1} {2} s" (không có dấu ngoặc kép) để tìm kiếm " <b> ass </ b> "cũng có thể tìm kiếm" <b> một </ b> x <s <b> / b> x <s <b> / b> "và" <b> một </ b > x <b> s </ b> xx <b> s </ b> "và vân vân. </ Li> <li> nhắc nhở: nhấp chuột vào kết quả tìm kiếm <b> Xóa </ b> nút để xóa các thông tin liên quan sẽ được trực tiếp！</li>',
 	'doing' => 'Quản lý trạng thái',
