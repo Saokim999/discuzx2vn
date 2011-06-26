@@ -36,7 +36,7 @@ $lang = array
 	'share_article' => '{actor} đã chia sẻ tác phẩm của bạn <a href="{url}" target="_blank">{subject}</a>',
 	'magic_present_note' => 'đã tặng cho bạn công cụ <a href="{url}" target="_blank">{name}</a>',
 	'friend_add' => '{actor} và bạn đã trở thành bạn bè',
-	'friend_request' => '{actor} muốn thêm bạn làm bạn với tin nhắn {note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Chấp nhận</a>',
+	'friend_request' => '{actor} muốn kết bạn {note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Chấp nhận</a>',
 	'doing_reply' => '{actor} đã trả lời <a href="{url}" target="_blank">Status</a> của bạn',
 	'wall_reply' => '{actor} đã trả lời <a href="{url}" target="_blank"> lời nhắn của bạn</a>',
 	'pic_comment_reply' => '{actor} đã trả lời <a href="{url}" target="_blank"> bình luận hình ảnh</a> của bạn',
