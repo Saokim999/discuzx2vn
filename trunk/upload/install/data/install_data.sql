@@ -853,19 +853,19 @@ INSERT INTO pre_forum_typeoption SET `optionid`=6, `title`='Phân loại F';
 
 
 
-INSERT INTO pre_home_click VALUES ('1','Chuồn lẹ','luguo.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('2','Sét đánh','leiren.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('3','Bắt tay','woshou.gif','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('1','Bỏ qua','luguo.gif','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('2','Phản đối','leiren.gif','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('3','Tán thành','woshou.gif','blogid','1','0');
 INSERT INTO pre_home_click VALUES ('4','Tặng hoa','xianhua.gif','blogid','1','0');
 INSERT INTO pre_home_click VALUES ('5','Trứng thối','jidan.gif','blogid','1','0');
 INSERT INTO pre_home_click VALUES ('6','Yêu rồi','piaoliang.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('7','Được đó','kubi.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('8','Sét đánh','leiren.gif','picid','1','0');
+INSERT INTO pre_home_click VALUES ('7','Cool','kubi.gif','picid','1','0');
+INSERT INTO pre_home_click VALUES ('8','Phản đối','leiren.gif','picid','1','0');
 INSERT INTO pre_home_click VALUES ('9','Tặng hoa','xianhua.gif','picid','1','0');
 INSERT INTO pre_home_click VALUES ('10','Trứng thối','jidan.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('11','Chuồn lẹ','luguo.gif','aid','1','0');
-INSERT INTO pre_home_click VALUES ('12','Sét đánh','leiren.gif','aid','1','0');
-INSERT INTO pre_home_click VALUES ('13','Bắt tay','woshou.gif','aid','1','0');
+INSERT INTO pre_home_click VALUES ('11','Bỏ qua','luguo.gif','aid','1','0');
+INSERT INTO pre_home_click VALUES ('12','Phản đối','leiren.gif','aid','1','0');
+INSERT INTO pre_home_click VALUES ('13','Tán thành','woshou.gif','aid','1','0');
 INSERT INTO pre_home_click VALUES ('14','Tặng hoa','xianhua.gif','aid','1','0');
 INSERT INTO pre_home_click VALUES ('15','Trứng thối','jidan.gif','aid','1','0');
 
@@ -1062,10 +1062,10 @@ INSERT INTO pre_common_block_style (blockclass, `name`, template, `hash`, getpic
 -- [/block_style]
 
 INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (1, 'Quản trị Portal');
-INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (2, 'Quản trị viên diễn đàn');
-INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (3, 'Quản lý nhóm');
-INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (4, 'Quản lý không gian');
-INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (5, 'Quản lý người dùng');
+INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (2, 'Quản trị diễn đàn');
+INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (3, 'Quản lý Nhóm');
+INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (4, 'Quản lý Không gian');
+INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (5, 'Quản lý Thành viên');
 
 INSERT INTO `pre_common_admincp_perm` (`cpgroupid`, `perm`) VALUES (1, 'albumcategory');
 INSERT INTO `pre_common_admincp_perm` (`cpgroupid`, `perm`) VALUES (1, 'article');
