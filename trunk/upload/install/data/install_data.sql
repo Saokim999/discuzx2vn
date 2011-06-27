@@ -19,12 +19,12 @@ INSERT INTO pre_common_credit_rule VALUES ('8','Ghé thăm','promotion_visit','4
 INSERT INTO pre_common_credit_rule VALUES ('9','Đăng ký','promotion_register','4','0','0','0','0','2','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('10','Giao dịch thành công','tradefinished','4','0','0','0','0','0','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('11','Xác nhận email','realemail','0','0','1','0','0','10','0','0','0','0','0','0','');
-INSERT INTO pre_common_credit_rule VALUES ('12','Sửa avatar','setavatar','0','0','1','0','0','5','0','0','0','0','0','0','');
+INSERT INTO pre_common_credit_rule VALUES ('12','Sửa Avatar','setavatar','0','0','1','0','0','5','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('13','Xác nhận video','videophoto','0','0','1','0','0','10','0','0','0','0','0','0','');
-INSERT INTO pre_common_credit_rule VALUES ('14','Thông tin hot','hotinfo','4','0','0','0','0','0','0','0','0','0','0','0','');
+INSERT INTO pre_common_credit_rule VALUES ('14','Tin Hot','hotinfo','4','0','0','0','0','0','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('15','Đăng nhập mỗi ngày','daylogin','1','0','1','0','0','2','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('16','Ghé thăm','visit','1','0','10','2','0','2','0','0','0','0','0','0','');
-INSERT INTO pre_common_credit_rule VALUES ('17','Chào hỏi','poke','1','0','10','2','0','1','0','0','0','0','0','0','');
+INSERT INTO pre_common_credit_rule VALUES ('17','Trêu chọc','poke','1','0','10','2','0','1','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('18','Lưu bút','guestbook','1','0','20','2','0','1','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('19','Xem lưu bút','getguestbook','1','0','5','2','0','1','0','0','0','0','0','0','');
 INSERT INTO pre_common_credit_rule VALUES ('20','Ghi chép','doing','1','0','5','0','0','1','0','0','0','0','0','0','');
@@ -151,7 +151,7 @@ INSERT INTO pre_common_nav VALUES ('','0','Network','Ranklist','misc.php?mod=ran
 INSERT INTO pre_common_nav VALUES ('', '0', 'Thống kê', '', 'misc.php?mod=stat', 'stat', 0, 0, 1, 1, 0, 0, 0, 0, '', '', '', 1, '');
 INSERT INTO pre_common_nav VALUES ('', '0', 'Báo cáo', '', '#', 'report', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 1, '');
 INSERT INTO pre_common_nav VALUES ('', '0', 'Lưu trữ', '', 'archiver/', 'archiver', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
-INSERT INTO pre_common_nav VALUES ('', '0', 'Mobile', '', 'forum.php?mobile=yes', 'mobile', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Phiên bản Mobile', '', 'forum.php?mobile=yes', 'mobile', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
 
 INSERT INTO pre_common_nav VALUES ('', '0', 'Blog', '', 'home.php?mod=space&do=blog', 'blog', 0, 0, 1, 2, 0, 0, 0, 0, '{STATICURL}image/feed/blog.gif', 'Đăng', 'home.php?mod=spacecp&ac=blog', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', 'Album', '', 'home.php?mod=space&do=album', 'album', 0, 0, 1, 3, 0, 0, 0, 0, '{STATICURL}image/feed/album.gif', 'Upload', 'home.php?mod=spacecp&ac=upload', 2, '');
@@ -169,7 +169,7 @@ INSERT INTO pre_common_nav VALUES ('', '0', 'Huy chương', '', 'home.php?mod=me
 INSERT INTO pre_common_nav VALUES ('', '0', 'Nhiệm vụ', '', 'home.php?mod=task', 'task', 0, 0, 1, 6, 0, 0, 0, 0, '{STATICURL}image/feed/task_b.png', '', '', 3, '');
 
 INSERT INTO pre_common_nav VALUES ('', '0', 'Đặt trang chủ', '', '#', 'sethomepage', 0, 0, 1, 1, 0, 0, 0, 0, '', '', '', 4, '');
-INSERT INTO pre_common_nav VALUES ('', '0', 'Thêm yêu thích', '', '#', 'setfavorite', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 4, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Đặt Bookmark', '', '#', 'setfavorite', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 4, '');
 
 -- [/update_nav]
 
@@ -421,7 +421,7 @@ INSERT INTO pre_common_setting VALUES ('showsettings','7');
 INSERT INTO pre_common_setting VALUES ('showsignatures','1');
 INSERT INTO pre_common_setting VALUES ('sigviewcond','0');
 INSERT INTO pre_common_setting VALUES ('sitemessage','a:5:{s:4:\"time\";s:1:\"3\";s:8:\"register\";s:0:\"\";s:5:\"login\";s:0:\"\";s:9:\"newthread\";s:0:\"\";s:5:\"reply\";s:0:\"\";}');
-INSERT INTO pre_common_setting VALUES ('sitename','Comsenz Inc.');
+INSERT INTO pre_common_setting VALUES ('sitename','Discuz Việt.');
 INSERT INTO pre_common_setting VALUES ('siteuniqueid','KD1Q6Vbd03ALJ34u');
 INSERT INTO pre_common_setting VALUES ('siteurl','http://www.comsenz.com/');
 INSERT INTO pre_common_setting VALUES ('smcols','8');
@@ -429,7 +429,7 @@ INSERT INTO pre_common_setting VALUES ('smrows','5');
 INSERT INTO pre_common_setting VALUES ('smthumb','20');
 INSERT INTO pre_common_setting VALUES ('spacedata','a:11:{s:9:\"cachelife\";s:3:\"900\";s:14:\"limitmythreads\";s:1:\"5\";s:14:\"limitmyreplies\";s:1:\"5\";s:14:\"limitmyrewards\";s:1:\"5\";s:13:\"limitmytrades\";s:1:\"5\";s:13:\"limitmyvideos\";s:1:\"0\";s:12:\"limitmyblogs\";s:1:\"8\";s:14:\"limitmyfriends\";s:1:\"0\";s:16:\"limitmyfavforums\";s:1:\"5\";s:17:\"limitmyfavthreads\";s:1:\"0\";s:10:\"textlength\";s:3:\"300\";}');
 INSERT INTO pre_common_setting VALUES ('spacestatus','1');
-INSERT INTO pre_common_setting VALUES ('srchhotkeywords','Hot Girl\r\nDownload\r\ndiscuz');
+INSERT INTO pre_common_setting VALUES ('srchhotkeywords','Hot Girl\r\nDownload\r\nDiscuz');
 INSERT INTO pre_common_setting VALUES ('starthreshold','2');
 INSERT INTO pre_common_setting VALUES ('statcode','');
 INSERT INTO pre_common_setting VALUES ('statscachelife','180');
@@ -442,7 +442,7 @@ INSERT INTO pre_common_setting VALUES ('tagstatus','1');
 INSERT INTO pre_common_setting VALUES ('taskon','0');
 INSERT INTO pre_common_setting VALUES ('tasktypes','');
 INSERT INTO pre_common_setting VALUES ('threadmaxpages','1000');
-INSERT INTO pre_common_setting VALUES ('threadsticky','Toàn forum,Toàn diễn đàn,Toàn chuyên mục');
+INSERT INTO pre_common_setting VALUES ('threadsticky','Chú ý III,Chú ý II,Chú ý I');
 INSERT INTO pre_common_setting VALUES ('thumbheight','300');
 INSERT INTO pre_common_setting VALUES ('thumbquality','100');
 INSERT INTO pre_common_setting VALUES ('thumbstatus','');
@@ -484,7 +484,7 @@ INSERT INTO pre_common_setting VALUES ('warningexpiration','30');
 INSERT INTO pre_common_setting VALUES ('warninglimit','3');
 INSERT INTO pre_common_setting VALUES ('welcomemsg','1');
 INSERT INTO pre_common_setting VALUES ('welcomemsgtitle','Xin chào {username}, Cám ơn bạn đã đăng ký, hãy đọc nội dung bên dưới');
-INSERT INTO pre_common_setting VALUES ('welcomemsgtxt','{username} Thân mến， Cám ơn bạn đã đăng ký và trở thành thành viên của {sitename}，Chúc bạn có nhiều giây phút vui vẻ với Forum và hãy đóng góp nhiệt tình cho forum nhé.\r\n Nếu có thắc mắc gì vui lòng email cho chúng tôi về email: {adminemail}.\r\n\r\n\r\n{bbname}\r\n{time}');
+INSERT INTO pre_common_setting VALUES ('welcomemsgtxt','{username} thân mến! Cám ơn bạn đã đăng ký và trở thành thành viên của {sitename} Chúc bạn có nhiều giây phút vui vẻ với chúng tôi và hãy tham gia tình nhé.\r\n Nếu có thắc mắc gì vui lòng email cho chúng tôi về email: {adminemail}.\r\n\r\n\r\n{bbname}\r\n{time}');
 INSERT INTO pre_common_setting VALUES ('whosonlinestatus','3');
 INSERT INTO pre_common_setting VALUES ('whosonline_contract','0');
 INSERT INTO pre_common_setting VALUES ('zoomstatus','1	600');
@@ -674,12 +674,12 @@ INSERT INTO pre_common_template VALUES ('1','Mặc định','./template/default'
 
 
 
-INSERT INTO pre_common_usergroup VALUES ('1','1','system','private','Quản trị viên','0','0','9','','','1','1','1','1','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('2','2','system','private','Siêu quản lý','0','0','8','','','1','1','1','1','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('3','3','system','private','Quản lý','0','0','7','','','1','1','1','1','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('4','0','system','private','Cấm phát biểu','0','0','0','','','1','1','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('1','1','system','private','Administrator','0','0','9','','','1','1','1','1','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('2','2','system','private','S-Mod','0','0','8','','','1','1','1','1','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('3','3','system','private','Mod','0','0','7','','','1','1','1','1','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('4','0','system','private','Cấm viết bài','0','0','0','','','1','1','0','0','0','0','0');
 INSERT INTO pre_common_usergroup VALUES ('5','0','system','private','Cấm truy cập','0','0','0','','','0','1','0','0','0','0','0');
-INSERT INTO pre_common_usergroup VALUES ('6','0','system','private','Chặn IP','0','0','0','','','0','1','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('6','0','system','private','Cấm IP','0','0','0','','','0','1','0','0','0','0','0');
 INSERT INTO pre_common_usergroup VALUES ('7','0','system','private','Khách','0','0','0','','','1','1','0','0','0','0','10');
 INSERT INTO pre_common_usergroup VALUES ('8','0','system','private','Chờ xác nhận','0','0','0','','','1','1','0','0','0','0','0');
 INSERT INTO pre_common_usergroup VALUES ('9','0','member','private','Banned','-9999999','0','0','','','1','1','0','0','0','0','0');
@@ -724,7 +724,7 @@ INSERT INTO pre_forum_bbcode VALUES ('3','0','sup','bb_sup.gif','<sup>{1}</sup>'
 INSERT INTO pre_forum_bbcode VALUES ('4','0','sub','bb_sub.gif','<sub>{1}</sub>','X[sub]2[/sub]','Chữ dưới','1','Nhập chữ nhằm dưới：','1','23','1	2	3	12	13	14	15	16	17	18	19');
 
 
-INSERT INTO pre_forum_forum SET `fid`='1',`fup`='0',`type`='group',`name`='Chuyên mục lớn',`status`='1';
+INSERT INTO pre_forum_forum SET `fid`='1',`fup`='0',`type`='group',`name`='Thông báo diễn đàn',`status`='1';
 INSERT INTO pre_forum_forum SET `fid`='2',`fup`='1',`type`='forum',`name`='Chuyên mục mặc định',`status`='1',`allowsmilies`='1',`allowbbcode`='1',`allowimgcode`='1',`allowmediacode`='1',`allowpostspecial`='1',`recyclebin`='1';
 INSERT INTO pre_forum_forum (`fid`, `fup`, `type`, `name`, `status`, `displayorder`, `styleid`, `threads`, `posts`, `todayposts`, `lastpost`, `allowsmilies`, `allowhtml`, `allowbbcode`, `allowimgcode`, `allowmediacode`, `allowanonymous`, `allowpostspecial`, `allowspecialonly`, `alloweditrules`, `allowfeed`, `allowside`, `recyclebin`, `modnewposts`, `jammer`, `disablewatermark`, `inheritedmod`, `autoclose`, `forumcolumns`, `threadcaches`, `alloweditpost`, `simple`, `modworks`, `allowglobalstick`, `level`, `commoncredits`, `archive`, `recommend`) VALUES(3, 0, 'group', 'Điện ảnh', 3, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0);
 INSERT INTO pre_forum_forum (`fid`, `fup`, `type`, `name`, `status`, `displayorder`, `styleid`, `threads`, `posts`, `todayposts`, `lastpost`, `allowsmilies`, `allowhtml`, `allowbbcode`, `allowimgcode`, `allowmediacode`, `allowanonymous`, `allowpostspecial`, `allowspecialonly`, `alloweditrules`, `allowfeed`, `allowside`, `recyclebin`, `modnewposts`, `jammer`, `disablewatermark`, `inheritedmod`, `autoclose`, `forumcolumns`, `threadcaches`, `alloweditpost`, `simple`, `modworks`, `allowglobalstick`, `level`, `commoncredits`, `archive`, `recommend`) VALUES(4, 0, 'group', 'Tình yêu', 3, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0);
@@ -808,9 +808,9 @@ INSERT INTO pre_forum_grouplevel VALUES ('3','default','Cao cấp','3000','99999
 
 
 
-INSERT INTO pre_forum_imagetype VALUES ('1','1','Mặt định','smiley','1','default');
-INSERT INTO pre_forum_imagetype VALUES ('2','1','Mặt khỉ','smiley','2','coolmonkey');
-INSERT INTO pre_forum_imagetype VALUES ('3','1','Mặt heo','smiley','3','grapeman');
+INSERT INTO pre_forum_imagetype VALUES ('1','1','Mặc định','smiley','1','default');
+INSERT INTO pre_forum_imagetype VALUES ('2','1','Mặt Khỉ','smiley','2','coolmonkey');
+INSERT INTO pre_forum_imagetype VALUES ('3','1','Mặt Heo','smiley','3','grapeman');
 
 
 
@@ -829,9 +829,9 @@ INSERT INTO pre_forum_medal VALUES ('10','Medal No.10','0','medal10.gif','0','0'
 
 
 
-INSERT INTO pre_forum_onlinelist VALUES ('1','1','Quản trị viên','online_admin.gif');
-INSERT INTO pre_forum_onlinelist VALUES ('2','2','Siêu quản lý','online_supermod.gif');
-INSERT INTO pre_forum_onlinelist VALUES ('3','3','Quản lý','online_moderator.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('1','1','Administrator','online_admin.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('2','2','S-Mod','online_supermod.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('3','3','Mod','online_moderator.gif');
 INSERT INTO pre_forum_onlinelist VALUES ('0','4','Thành viên','online_member.gif');
 
 
@@ -1062,7 +1062,7 @@ INSERT INTO pre_common_block_style (blockclass, `name`, template, `hash`, getpic
 -- [/block_style]
 
 INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (1, 'Quản trị Portal');
-INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (2, 'Quản trị diễn đàn');
+INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (2, 'Quản trị Forum');
 INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (3, 'Quản lý Nhóm');
 INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (4, 'Quản lý Không gian');
 INSERT INTO `pre_common_admincp_group` (`cpgroupid`, `cpgroupname`) VALUES (5, 'Quản lý Thành viên');
