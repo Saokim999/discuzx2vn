@@ -11,7 +11,7 @@ $lang = array
 (
 	'anonymouspost_name' => 'Thẻ ẩn danh',
 	'anonymouspost_desc' => 'Dùng để ẩn danh tính khi viết bài.',
-	'anonymouspost_num' => 'Có một số : {magicnum}',
+	'anonymouspost_num' => 'Có một số: {magicnum}',
 	'anonymouspost_forum' => 'Cho phép sử dụng các đạo cụ của Diễn đàn',
 	'anonymouspost_info' => 'Nhập ID chủ đề cần ẩn danh',
 	'anonymouspost_info_nonexistence' => 'Hãy xác định bài viết ẩn danh',

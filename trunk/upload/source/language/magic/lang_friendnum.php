@@ -10,7 +10,7 @@
 $lang = array
 (
 	'friendnum_name' => 'Tăng bạn bè',
-	'friendnum_desc' => 'Dùng để tăng số lượng trong danh sách bạn bè',
+	'friendnum_desc' => 'Dùng để tăng số lượng Kết bạn trong danh sách bạn bè',
 	'friendnum_info' = 'Tối đa thêm được {num} người bạn',
 	'friendnum_addnum' => 'Gia tăng số lượng bạn bè',
 );
