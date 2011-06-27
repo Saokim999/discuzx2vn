@@ -325,7 +325,7 @@ $serialize_sql_setting = array (
   ),
   'focus' =>
   array (
-    'title' => 'Nên xem',
+    'title' => 'Tin tiêu điểm',
     'data' =>
     array (
     ),

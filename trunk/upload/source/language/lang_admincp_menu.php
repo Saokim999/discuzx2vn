@@ -141,7 +141,7 @@ $lang = array
 
 	'menu_misc_link' => 'Liên kết',
 	'menu_misc_relatedlink' => 'Liên quan',
-	'memu_focus_topic' => 'Nên xem',
+	'memu_focus_topic' => 'QC PopLink',
 	'menu_adv_custom' => 'Quảng cáo',
 
 	'menu_misc_announce' => 'Thông báo',
