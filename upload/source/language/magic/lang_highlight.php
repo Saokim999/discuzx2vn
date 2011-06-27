@@ -25,8 +25,8 @@ $lang = array
 	'highlight_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây',
 	'highlight_info_notype' => 'Lỗi tham số, không chỉ định loại hoạt động',
 
-	'highlight_notification' => 'Chủ đề {subject} của bạn được {actor} dùng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
-	'highlight_notification_blogid' => 'Blog {subject} của bạn được {actor} dùng {magicname}, <a href="home.php?mod=space&do=blog&id={blogid}">Xem</a>',
+	'highlight_notification' => 'Chủ đề {subject} của bạn được {actor} dùng {magicname} <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
+	'highlight_notification_blogid' => 'Blog {subject} của bạn được {actor} dùng {magicname} <a href="home.php?mod=space&do=blog&id={blogid}">Xem</a>',
 );
 
 ?>

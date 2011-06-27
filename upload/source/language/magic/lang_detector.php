@@ -10,9 +10,9 @@
 $lang = array
 (
 	'detector_name' => 'Thẻ đánh hơi',
-	'detector_desc' = 'Phát hiện phong bao lì xì của các thành viên treo trong trang cá nhân của họ',
-	'detector_num' = 'Tối đa',
-	'detector_info' => 'Phát hiện (lên đến {num}) các blog nào có treo phong bao lì xì.',
+	'detector_desc' => 'Phát hiện các Blog có treo Phong bao lì xì',
+	'detector_num' => 'Tối đa',
+	'detector_info' => 'Phát hiện (lên đến {num}) Blog có treo Phong bao lì xì.',
 );
 
 ?>

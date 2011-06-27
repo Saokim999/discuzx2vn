@@ -10,11 +10,11 @@
 $lang = array
 (
 	'stick_name' => 'Thẻ Đính',
-	'stick_desc' => 'Dùng để đính chủ đề lên',
+	'stick_desc' => 'Dùng để đặt Chú ý chủ đề',
 	'stick_expiration' => 'Thời hạn',
 	'stick_expiration_comment' => 'Thiết lập thời gian đính chủ đề, mặc định 24 giờ',
 	'stick_forum' => 'Cho phép sử dụng các đạo cụ của Diễn đàn',
-	'stick_info' => 'Đính chủ đề trong {expiration} giờ, nhập ID chủ đề',
+	'stick_info' => 'Đính chủ đề trong {expiration}giờ, nhập ID chủ đề',
 	'stick_info_nonexistence' => 'Hãy xác định đối tượng để đính',
 	'stick_succeed' => 'Bạn đã đính chủ đề thành công',
 	'stick_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây.',

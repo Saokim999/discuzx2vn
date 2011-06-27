@@ -8,7 +8,9 @@
 $lang = array
 (
 	'flicker_name' => 'Thẻ cầu vồng',
-	'flicker_desc' => 'Trong Blog sử dụng thẻ này để đổi màu các nhận xét',
-	'flicker_info' => 'Trong Blog sử dụng thẻ này để đổi màu các nhận xét',
+	'flicker_desc' => 'Trong Blog sử dụng thẻ này để đổi màu Comment',
+	'flicker_info' => 'Trong Blog sử dụng thẻ này để đổi màu Comment',
 	'flicker_succeed' => 'Sử dụng thành công.',
 );
+
+?>

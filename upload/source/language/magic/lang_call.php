@@ -10,8 +10,8 @@
 $lang = array
 (
 	'call_name' => 'Danh thiếp',
-	'call_desc' => 'Dùng để mời bạn bè ghé thăng blog của mình',
-	'call_info' => 'Đưa ra một thông báo cho bạn bè của bạn và để cho họ xem blog của mình',
+	'call_desc' => 'Dùng để mời bạn bè ghé thăng Blog của mình',
+	'call_info' => 'Gửi thông báo cho bạn bè của bạn mời họ xem Blog của mình',
 );
 
 ?>

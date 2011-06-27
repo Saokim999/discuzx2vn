@@ -9,8 +9,8 @@
 
 $lang = array
 (
-	'sofa_name' => 'Thẻ Giật tem',
-	'sofa_desc' => 'Bạn có thể chỉ định các chủ đề để giật tem bài viết',
+	'sofa_name' => 'Thẻ cướp Tem',
+	'sofa_desc' => 'Bạn có thể chỉ định các chủ đề để cướp lượt trả lời đầu tiên',
 	'sofa_forum' => 'Cho phép sử dụng các đạo cụ của Diễn đàn',
 	'sofa_info' => 'Nhập ID chủ đề',
 	'sofa_info_nonexistence' => 'Hãy xác định chủ đề cần giật tem',
@@ -18,9 +18,9 @@ $lang = array
 	'sofa_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây',
 	'sofa_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ với người này',
 	'sofa_info_sofaexistence' => 'Bạn đã tới muộn, chủ đề này đã có người giật tem trước đó',
-	'sofa_text' => 'O(∩_∩)O Ha ha, Cướp được Tem rồi! \n[color=gray]{actor} lúc {time} đã sử dụng {magicname} để cướp tem bài viết[/color]',
+	'sofa_text' => 'O(∩_∩)O Ha ha, Giật được tem rồi! \n[color=gray]{actor} lúc {time} đã sử dụng {magicname} để cướp tem bài viết[/color]',
 
-	'sofa_notification' => 'Chủ đề của bạn {subject} được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
+	'sofa_notification' => 'Chủ đề của bạn {subject} được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem !</a>',
 );
 
 ?>
