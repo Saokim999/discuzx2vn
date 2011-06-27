@@ -10,14 +10,14 @@
 $lang = array
 (
 	'checkonline_name' => 'Thẻ dò tìm',
-	'checkonline_desc' => 'Xem người dùng đang trực tuyến hay không',
-	'checkonline_targetuser' => 'Bạn đã để xem ai đang online',
+	'checkonline_desc' => 'Xem người dùng đang Online hay không',
+	'checkonline_targetuser' => 'Bạn đã để xem ai đang Online',
 	'checkonline_info_nonexistence' => 'Vui lòng nhập tên người dùng của bạn',
 	'checkonline_hidden_message' => '{username} đang ẩn danh, thời gian sự kiện cuối cùng là {time}',
 	'checkonline_online_message' => '{username} đang trực tuyến, thời gian sự kiện cuối cùng là {time}',
 	'checkonline_offline_message' => '{username} không trực tuyến',
 	'checkonline_info_noperm' => 'Xin lỗi, bạn không có quyền xem IP của người này',
-	'checkonline_notification' => 'Một số người sử dụng {magicname} để kiểm tra trạng thái của bạn',
+	'checkonline_notification' => 'Có người sử dụng {magicname} để kiểm tra trạng thái của bạn',
 );
 
 ?>

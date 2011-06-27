@@ -11,7 +11,7 @@
 $lang = array
 (
 	'close_name' => 'Thẻ im lặng',
-	'close_desc' => 'Dùng để đóng cửa các chủ đề',
+	'close_desc' => 'Dùng để khóa Chủ đề',
 	'close_expiration' => 'Thời gian đóng',
 	'close_expiration_comment' => 'Thiết lập đóng cửa bao lâu, mặc định là 24 giờ',
 	'close_forum' => 'Cho phép sử dụng các đạo cụ của Diễn đàn',
@@ -20,7 +20,7 @@ $lang = array
 	'close_succeed' => 'Chủ đề đã được đóng cửa.',
 	'close_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây.',
 	'close_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ với người này',
-	'close_notification' => 'Chủ đề {subject} của bạn được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
+	'close_notification' => 'Chủ đề của bạn {subject} được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
 );
 
 ?>

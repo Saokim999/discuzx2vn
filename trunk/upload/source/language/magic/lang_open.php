@@ -18,7 +18,7 @@ $lang = array
 	'open_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây',
 	'open_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ cho người này',
 
-	'open_notification' => 'Chủ đề của bạn {subject} được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
+	'open_notification' => 'Chủ đề {subject} của bạn được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
 );
 
 ?>

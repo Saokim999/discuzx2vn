@@ -10,7 +10,7 @@
 $lang = array
 (
 	'hot_name' => 'Thẻ năng động',
-	'hot_desc' => 'Tăng sự nổi bật trang web của bạn, nhập giá trị của các điểm nóng được đề nghị',
+	'hot_desc' => 'Tăng sự nổi bật trang web của bạn, nhập giá trị độ Hot',
 	'hot_info' => 'Có thể tăng tối đa {num} điểm',
 );
 

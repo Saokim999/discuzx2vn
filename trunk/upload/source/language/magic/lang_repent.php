@@ -9,7 +9,7 @@
 
 $lang = array
 (
-	'repent_name' => 'Thẻ hối cải',
+	'repent_name' => 'Thẻ hối hận',
 	'repent_desc' => 'Có thể xóa bài viết của bạn',
 	'repent_forum' => 'Cho phép sử dụng các đạo cụ của Diễn đàn',
 	'repent_info' => 'Nhập ID chủ đề cần xóa',
