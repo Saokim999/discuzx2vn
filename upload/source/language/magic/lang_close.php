@@ -20,7 +20,7 @@ $lang = array
 	'close_succeed' => 'Chủ đề đã được đóng cửa.',
 	'close_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây.',
 	'close_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ với người này',
-	'close_notification' => 'Chủ đề của bạn {subject} được {actor} sử dụng{magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem !</a>',
+	'close_notification' => 'Chủ đề {subject} của bạn được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
 );
 
 ?>
