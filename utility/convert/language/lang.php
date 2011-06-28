@@ -10,8 +10,8 @@ $language = array(
 	'config_dbcharset' => 'Charset (Tùy chọn)',
 	'config_pconnect' => 'Pconnect',
 
-	'config_type_source' => 'Nguồn dữ liệu máy chủ cài đặt (Kiểu dữ liệu ban đầu của cơ sở dữ liệu)',
-	'config_type_target' => 'Thiết lập máy chủ. (Chú ý cài đặt đúng CSDL)',
+	'config_type_source' => 'Nguồn dữ liệu máy chủ cài đặt (Trang có dữ liệu cần convert)',
+	'config_type_target' => 'Thiết lập máy chủ trang Convert sang. (Chú ý cài đặt đúng CSDL)',
 	'config_type_ucenter' => 'Thiết lập Ucenter',
 
 	'config_type_target_comment' => 'Lưu ý: Các table mới sẽ thay thế các table cũ, chẳng hạn như có những nội dung quan trọng, hãy sao lưu dự phòng',
