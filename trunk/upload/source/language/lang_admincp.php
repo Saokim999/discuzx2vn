@@ -2810,7 +2810,7 @@ $lang = array
 	'members_ban_status' => 'Khóa người dùng',
 	'members_ban_delete_avatar' => 'Xóa Avatar',
 	'members_ban_clear_content' => 'Làm trống nội dung của người sử dụng có liên quan',
-	'members_ban_clear_content_comment' => ',<input type="checkbox" name="chkall" onclick="checkAll(\'prefix\', this.form, \'clear\')" class="checkbox">全选',
+	'members_ban_clear_content_comment' => ',<input type="checkbox" name="chkall" onclick="checkAll(\'prefix\', this.form, \'clear\')" class="checkbox">Chọn tất',
 	'members_edit_current_status' =>'Tình trạng hiện tại', 
 	'members_ban_validity' => 'Có hiệu lực', 
 	'members_ban_validity_comment' => 'Trong giai đoạn sau khi nâng từ những hạn chế mà người dùng có thể tự động trở thành người dùng thông thường.',

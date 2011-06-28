@@ -44,18 +44,18 @@ foreach (array('start', 'tables', 'steps') as $program) {
 
 			list($rday, $rhour, $rmin, $rsec) = remaintime(time() - $process['timestart']);
 			$stime = gmdate('Y-m-d H:i:s', $process['timestart'] + 3600* 8);
-			$timetodo = "升级开始时间：<strong>$stime</strong>, 升级程序已经执行了 <strong>$rday</strong>天 <strong>$rhour</strong>小时 <strong>$rmin</strong>分 <strong>$rsec</strong>秒";
-			$timetodo .= "<br><br>目前正在执行转换程序( $prg_done / $prg_total ) <strong>$prg</strong>，转换过程中需要多次跳转，请勿关闭浏览器。";
-			$timetodo .= "<br><br>如果程序中断或者需要重新开始当前程序，请点击 (<a href=\"index.php?a=convert&source=$source&prg=$prg\">重新开始</a>)";
+			$timetodo = "Cập nhập thời gian ：<strong>$stime</strong>, Nâng cấp hết <strong>$rday</strong> ngày <strong>$rhour</strong> giờ <strong>$rmin</strong> phút <strong>$rsec</strong> giây";
+			$timetodo .= "<br><br>Đang Convert( $prg_done / $prg_total ) <strong>$prg</strong>，trình duyệt sẽ load nhiều lần, không đóng cửa sổ";
+			$timetodo .= "<br><br>Nếu bị gián đoạn, bạn cần làm lại từ đầu, Click (<a href=\"index.php?a=convert&source=$source&prg=$prg\">Khởi động lại</a>)";
 
 			showtips($timetodo);
 			if(file_exists($prg_dir[$program].$prg)) {
 				define('PROGRAM_TYPE', $program);
 				require $prg_dir[$program].$prg;
 				save_process_main($prg);
-				showmessage("转换程序 $prg 执行完毕， 现在跳转到下一个程序", "index.php?a=convert&source=$source", null, 500);
+				showmessage("Chuyển đổi $prg thực hiện， Tiếp tục tới", "index.php?a=convert&source=$source", null, 500);
 			} else {
-				showmessage('数据转换中断! 无法找到转换程序 '.$prg);
+				showmessage('Convert có lỗi'.$prg);
 			}
 		} else {
 			$process[$program.'_is_end'] = 1;
@@ -66,7 +66,7 @@ foreach (array('start', 'tables', 'steps') as $program) {
 	}
 }
 
-showmessage('转换程序全部运行完毕', "index.php?action=finish&source=$source");
+showmessage('Convert dữ liệu hoàn tất', "index.php?action=finish&source=$source");
 
 function save_process_main($prg = '') {
 	global $process;

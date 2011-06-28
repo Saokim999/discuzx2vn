@@ -249,7 +249,7 @@ echo <<<EOT
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Discuz! X 系列产品升级转换</title>
+<title>Convert Discuz 7.2 > Discuz X2 . Support by TraiTimYenBai.Net</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 body,td { font-family: Tahoma; font-size: 12px; line-height: 150%;}
@@ -327,15 +327,15 @@ function checkAll(type, form, value, checkall, changestyle) {
 </head>
 <body style="table-layout:fixed; word-break:break-all; margin-top: 4px;">
 <div class="main">
-<h1>Discuz! X 系列产品升级/转换 向导 $titleadd</h1>
+<h1>Discuz! X Convert $titleadd</h1>
 <div class="content">
 <table id="menu">
 	<tr>
-	<td $class[source]>1.选择产品转换程序 </td>
-	<td $class[config]>2.设置服务器信息 </td>
-	<td $class[select]>3.配置转换过程 </td>
-	<td $class[convert]>4.执行数据转换 </td>
-	<td $class[finish]>5.转换完成 </td>
+	<td $class[source]>1.Chọn loại Convert </td>
+	<td $class[config]>2.Thiết lập CSDL </td>
+	<td $class[select]>3.Cấu hình Convert </td>
+	<td $class[convert]>4.Convert dữ liệu </td>
+	<td $class[finish]>5.Hoàn tất </td>
 	</tr>
 </table>
 
