@@ -135,8 +135,8 @@ $lang = array
 	'menu_posting_smilies' => 'Hình vui',
 	'menu_click' => 'Hành động',
 	'menu_thread_icon' => 'Biểu tượng',
-	'menu_thread_stamp' => 'Đánh dấu',
-	'menu_posting_editor' => 'Soạn thảo',
+	'menu_thread_stamp' => 'Dán Tem',
+	'menu_posting_editor' => 'Bộ Soạn thảo',
 	'menu_misc_onlinelist' => 'Trực tuyến',
 
 	'menu_misc_link' => 'Liên kết',
