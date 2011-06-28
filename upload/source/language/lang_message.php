@@ -149,7 +149,7 @@ $lang = array (
   'eccredit_nofound' => 'Đánh giá các quy định không tồn tại hoặc đã bị xoá',
   'non_normal_operation' => 'Thao tác bị cấm',
   'you_have_friends' => 'Kết bạn thành công',
-  'no_privilege_addfriend' => 'Có lỗi, Hiện tại, bạn không được phép thêm bạn bè,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_addfriend' => 'Có lỗi, Hiện tại, bạn không được phép thêm bạn bè, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'enough_of_the_number_of_friends_with_magic' => 'Có lỗi, Hiện tại bạn bị giới hạn số lượng bạn bè,<a id="a_magic_friendnum2" href="magic.php?mid=friendnum" onclick="ajaxmenu(event, this.id, 1)">Bạn có thể mua đạo cụ tăng giới hạn bạn bè</a>',
   'enough_of_the_number_of_friends' => 'Có lỗi, Hiện tại bạn bị giới hạn số lượng bạn bè, hãy xóa một số bạn bè',
   'specified_user_is_not_your_friend' => 'Có lỗi, Người sử dụng không phải là bạn của bạn',
@@ -166,7 +166,7 @@ $lang = array (
   'message_can_not_send_2' => 'Gửi tin nhắn 2 lần liên tiếp, xin vui lòng chờ đợi trước khi gửi',
   'message_can_not_send_9' => 'Tin nhắn trống hoặc chưa có người nhận',
   'pm_report_error_nopm' => 'Có lỗi, Tin ngắn mà bạn chỉ định không tồn tại',
-  'no_privilege_sendpm' => 'Có lỗi, Hiện tại bạn không được phép để Gửi PM,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_sendpm' => 'Có lỗi, Hiện tại bạn không được phép gửi PM, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'profile_email_illegal' => 'Địa chỉ email không hợp lệ',
   'profile_email_domain_illegal' => 'Có lỗi, Email này bị cấm',
   'profile_email_duplicate' => 'Địa chỉ email này đã được đăng ký',
@@ -339,7 +339,7 @@ $lang = array (
   'debate_umpire_nofound_winner' => 'Có lỗi, Bạn chưa đầy người chiến thắng',
   'debate_umpire_nofound_point' => 'Có lỗi, Bạn chưa điền vào quan điểm của bạn',
   'debate_umpire_comment_succeed' => 'Đánh giá thành công ',
-  'no_privilege_recommend' => 'Có lỗi, Hiện tại bạn không có đánh giá cho phép của chủ đề này,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_recommend' => 'Có lỗi, Hiện tại bạn không được đánh giá chủ đề này, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'recommend_self_disallow' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Bạn không được tự đánh giá',
   'recommend_duplicate' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Chủ đề  đã được đánh giá',
   'recommend_outoftimes' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Số lượt đánh giá trong ngày đã hết',
@@ -489,7 +489,7 @@ $lang = array (
   'password_is_not_passed' => 'Có lỗi, mật khẩu không chính xác',
 
   'not_open_updatestat' => 'trang web không mở chức năng thống kê',
-  'no_privilege_statdata' => 'Có lỗi, Bạn không được phép truy cập vào dữ liệu báo cáo thống kê,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_statdata' => 'Có lỗi, Bạn không được phép truy cập vào dữ liệu báo cáo thống kê, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'start_time_end_time_is_equal_to' => 'Ngày bắt đầu và ngày kết thúc không thấp hơn',
 
   'modcp_ann_nofound' => 'Có lỗi, Thông báo này đã bị xóa hoặc bạn không được phép chỉnh sửa nó',
@@ -607,7 +607,7 @@ $lang = array (
 
   'no_authority_to_add_log' => 'Hiện tại, bạn không được phép thêm truy cập',
   'no_authority_operation_of_the_log' => 'Có lỗi, Bạn không được phép hoạt động truy cập',
-  'no_privilege_blog' => 'Có lỗi, Bạn không được phép txem nhật ký,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_blog' => 'Có lỗi, Bạn không được phép txem nhật ký, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'blog_choose_system_category' => 'Có lỗi, Hãy chọn loại hệ thống',
   'that_should_at_least_write_things' => 'Ít nhất phải viết một cái gì đó',
   'failed_to_delete_operation' => 'Có lỗi, Xoá thất bại, kiểm tra các hoạt động',
@@ -619,7 +619,7 @@ $lang = array (
 
   'click_error' => 'Có lỗi, Bạn không phải là vị trí hoạt động bình thường',
   'click_item_error' => 'các đối tượng không tồn tại',
-  'no_privilege_click' => 'Có lỗi, Hiện tại, bạn không được phép,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_click' => 'Có lỗi, Hiện tại, bạn không được phép, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'click_no_self' => 'Bạn không được đánh giá chính mình',
   'click_have' => 'Bạn đã đánh giá rồi',
   'click_success' => 'Bạn đã đánh giá thành công',
@@ -638,7 +638,7 @@ $lang = array (
   'credits_addfunds_ctrl' => 'Có lỗi, Khoảng cách giửa 2 lần đặt hàng là quá nhỏ',
   'credits_addfunds_toomuch' => 'Có lỗi, Bạn được phép mua trong tháng này {ec_maxcreditspermonth} lần',
   'memcp_credits_transfer_msg_self_incorrect' => 'Bạn không cần phải chuyển mình',
-  'credits_transfer_balance_insufficient' => 'Có lỗi, Sau khi chuyển giao {title}Ít hơn {minbalance}',
+  'credits_transfer_balance_insufficient' => 'Có lỗi, Sau khi chuyển giao {title} Ít hơn {minbalance}',
   'credits_net_amount_iszero' => 'Giao dịch của thấp hơn 0',
   'memcp_credits_transfer_msg_user_incorrect' => 'Có lỗi, Bạn chưa nhập người nhận hoặc người nhận không tồn tại',
   'credits_transfer_succeed' => 'Chuyển điểm thành công ',
@@ -651,7 +651,7 @@ $lang = array (
   'credits_transaction_succeed' => 'Hoạt động tách rời thành công ',
 
   'no_privilege_doing' => 'Có lỗi, Bạn không được phép tới bài viết ghi lại,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
-  'no_privilege_doing_comment' => 'Có lỗi, Hiện tại bạn không có quyền nhận xét về hồ sơ,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_doing_comment' => 'Có lỗi, Hiện tại bạn không có quyền nhận xét về hồ sơ, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'docomment_error' => 'Có lỗi, Hãy xác định hồ sơ chính xác của các nhận xét',
 
   'no_privilege_spacedomain' => 'Có lỗi, Bạn không có quyền để thiết lập miền không gian',
@@ -665,7 +665,7 @@ $lang = array (
 
   'favorite_delete_succeed' => 'xoá yêu thích thành công ',
   'favorite_does_not_exist' => 'Có lỗi, Các bộ sưu tập mà bạn chỉ định không tồn tại',
-  'no_privilege' => 'Có lỗi, Hiện tại, bạn không được phép làm điều này<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege' => 'Có lỗi, Hiện tại, bạn không được phép làm điều này <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'favorite_cannot_favorite' => 'Có lỗi, Bạn có thể thu thập thông tin',
   'favorite_repeat' => 'Có lỗi, Không đặt Yêu thích 2 lần cùng một chủ đề',
   'favorite_do_success' => 'Thông tin bộ sưu tập thành công ',
@@ -730,7 +730,7 @@ $lang = array (
   'pm_emport_banned_export' => 'Có lỗi, Không có hồ sơ của thông điệp ngắn để xuất',
 
   'not_to_their_own_greeted' => 'Không thể tự chào hỏi',
-  'no_privilege_poke' => 'Có lỗi, Bạn chưa được phép chào hỏi,<a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_poke' => 'Có lỗi, Bạn chưa được phép chào hỏi, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'poke_success' => 'Đã gửi Trêu chọc, {username} sẽ nhận được sau khi Online',
   'has_been_hailed_overlooked' => 'Bạn đã phớt lờ chào hỏi.',
 
@@ -744,7 +744,7 @@ $lang = array (
   'email_input' => 'Có lỗi, Bạn đã không được thiết lập hộp thư, xin<a href="home.php?mod=spacecp&ac=profile&op=password">Liên hệ</a>để điền vào hộp thư của bạn chính xác',
 
   'no_privilege_edithot_share' => 'Có lỗi, Bạn không có quyền điều chỉnh độ nóng cho phần này',
-  'no_privilege_share' => 'Có lỗi, Hiện tại bạn không được phép chia sẻ bản phát hành, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
+  'no_privilege_share' => 'Có lỗi, Hiện tại bạn không được phép chia sẻ, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'blog_does_not_exist' => 'Có lỗi, Quy định đăng nhập không tồn tại',
   'moderate_blog_not_share' => 'Có lỗi, Bạn không thể chia sẻ nhật ký này',
   'logs_can_not_share' => 'Có lỗi, Do cài đặt bảo mật được quy định không thể chia sẻ',
