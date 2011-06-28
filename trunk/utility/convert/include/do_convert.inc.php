@@ -46,7 +46,7 @@ foreach (array('start', 'tables', 'steps') as $program) {
 			$stime = gmdate('Y-m-d H:i:s', $process['timestart'] + 3600* 8);
 			$timetodo = "Cập nhập thời gian ：<strong>$stime</strong>, Nâng cấp hết <strong>$rday</strong> ngày <strong>$rhour</strong> giờ <strong>$rmin</strong> phút <strong>$rsec</strong> giây";
 			$timetodo .= "<br><br>Đang Convert( $prg_done / $prg_total ) <strong>$prg</strong>，trình duyệt sẽ load nhiều lần, không đóng cửa sổ";
-			$timetodo .= "<br><br>Nếu bị gián đoạn, bạn cần làm lại từ đầu, Click (<a href=\"index.php?a=convert&source=$source&prg=$prg\">Khởi động lại</a>)";
+			$timetodo .= "<br><br>Nếu bị gián đoạn, bạn cần làm lại bước này, Click (<a href=\"index.php?a=convert&source=$source&prg=$prg\">Khởi động lại</a>)";
 
 			showtips($timetodo);
 			if(file_exists($prg_dir[$program].$prg)) {
