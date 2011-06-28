@@ -55,7 +55,7 @@ $lang = array
 	'menu_setting_search' => 'Tìm kiếm',
 	'menu_setting_district' => 'Địa chỉ Tỉnh Thành',
 	'menu_setting_ranklist' => 'TOP rank',
-	'menu_setting_mobile' => 'Điện thoại',
+	'menu_setting_mobile' => 'Phiên bản Mobile',
 	'menu_setting_tag' => 'Quản lý tags',
 
 	'menu_forums' => 'Diễn đàn',

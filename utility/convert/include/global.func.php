@@ -227,7 +227,7 @@ function showmessage($message, $url_forward = '', $vars = array(), $timeout = 1)
 
 	echo <<<EOT
 <table class="showtable">
-	<tbody><tr class="title"><td style="color: white">系统提示</td></tr>
+	<tbody><tr class="title"><td style="color: white">Tiến trình Convert dữ liệu</td></tr>
 		<tr><td style="padding: 10px; background-color: #fefefe;font-size: 14px "><br>$message<br><br></td></tr>
 		<tr><td>$messageadd</td></tr>
 	</tbody>
