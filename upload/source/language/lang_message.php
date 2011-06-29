@@ -915,7 +915,7 @@ $lang = array (
   'board_closed' => 'Có lỗi, Trang web đang tạm thời đóng cửa, xin vui lòng <a href="mailto:"Liên hệ với quản trị viên</a>',
 
   'login_strike' => 'Sai mật khẩu quá nhiều lần, vui lòng đợi 15p rồi thử lại',
-  'location_login_succeed_mobile' => 'Chào mừng {username} trở lại, Nhấp vào đây để đến trang trước',
+  'location_login_succeed_mobile' => 'Chào mừng {username} trở lại',
   'location_login_succeed' => '',
   'login_succeed_inactive_member' => 'Welcome back,{usergroup} {username}. Tài khoản của bạn chưa kích hoạt, bạn sẽ được chuyển vào mục Cá nhân',
   'login_question_empty' => 'Hãy chọn câu hỏi bí mật và điền đáp án đúng',

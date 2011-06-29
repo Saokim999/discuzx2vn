@@ -88,7 +88,7 @@ $lang = array (
   'header_diy' => 'Tùy chọn',
   'header_diy_backup_tip' => 'Bạn có thể sao lưu bằng cách xuất các mẫu',
   'header_diy_i_know' => 'Tôi biết',
-  'header_diy_sample_mode' => 'Để sửa đổi, cập nhật các thuộc tính của <strong>mdule</strong>,bạn chỉ cần thực hiện kéo thả module. <a href="javascript:;" onclick="spaceDiy.init();" class="xw1 xi2">Chế độ nâng cao</a>',
+  'header_diy_sample_mode' => 'Để sửa đổi, cập nhật các thuộc tính của <strong>Module</strong>, bạn chỉ cần thực hiện kéo thả. <a href="javascript:;" onclick="spaceDiy.init();" class="xw1 xi2">Chế độ nâng cao</a>',
   'header_export' => 'Xuất DIY',
   'header_export_desc' => 'Đang xuất dữ liệu DIY',
   'header_frame' => 'Frame',
