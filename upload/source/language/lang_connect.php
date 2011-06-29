@@ -35,6 +35,7 @@ $lang = array
 	'weibo_reason_is_long' => 'Microblogging nội dung vượt quá giới hạn độ dài',
 	'weibo_account_not_signup' => 'Xin lỗi, tài khoản của bạn chưa được mở microblogging, không thể chia sẻ nội dung <a href=http://t.qq.com/reg/index.php target=_blank>Click vào đây để mở ngay lập tức</a>.',
 	'user_unauthorized' => 'Xin lỗi, bạn không được phép chia sẻ các chủ đề không gian các QQ, Tencent, Tencent vi-Bo và bạn bè.',
+		
 	'connect_errlog_server_no_response' => 'Server không đáp ứng',
 	'connect_errlog_access_token_incomplete' => 'Có lỗi giao diện - AccessToken',
 	'connect_errlog_request_token_not_authorized' => 'TMP Có lỗi hoặc dữ liệu không đầy đủ',

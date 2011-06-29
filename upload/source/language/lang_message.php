@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_message.php 22716 2011-05-18 05:09:45Z congyushuai $
+ *      $Id: lang_message.php 22889 2011-05-30 07:31:11Z monkey 
  *		Translate by DCV team - http://www.discuzviet.net
  *      This file is automatically generate
  */
@@ -734,6 +734,7 @@ $lang = array (
   'poke_success' => 'Đã gửi Trêu chọc, {username} sẽ nhận được sau khi Online',
   'has_been_hailed_overlooked' => 'Bạn đã phớt lờ chào hỏi.',
 
+  'profile_passwd_empty' => 'Hãy thiết lập mật khẩu mới',
   'profile_passwd_wrong' => 'Mật khẩu của bạn chưa chính xác nên bạn không thể thay đổi email và câu hỏi bảo mật!',
   'profile_email_verify' => 'Xác nhận Email Đã được gửi đi, xin vui lòng kiểm tra e-mail để kích hoạt tài khoản của bạn. Nếu bạn chưa nhận được  e-mail , bấm vào gửi lại email xác nhận",',
   'profile_succeed' => 'Lưu thông tin cá nhân thành công!',
@@ -769,6 +770,7 @@ $lang = array (
   'usergroups_span_invalid' => 'Có lỗi, Bạn cần phải trả ít nhất {minspan}  điểm',
   'usergroups_join_succeed' => 'Bạn đã tham gia vào nhóm {group}',
   'usergroups_exit_succeed' => 'Bạn đã rời khỏi nhóm {group}',
+  'usergroup_switch_not_allow' => 'Nhóm người sử dụng hiện tại của bạn không hết hạn, không thể chuyển sang các nhóm người dùng khác',
   'usergroups_switch_succeed' => 'Bạn đã chuyển sang nhóm {group}',
 
   'no_privilege_banpost' => 'Có lỗi, Bạn không có chủ đề mặt nạ cho phép',

@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *		Translated by Kyehani - www.lophocit.com
- *      $Id: lang_admincp.php 22760 2011-05-20 01:03:11Z monkey $
+ *      $Id: lang_admincp.php 22849 2011-05-26 01:57:02Z monkey $
  */
 
 
@@ -5856,6 +5856,7 @@ $lang = array
 	'blockstyle_add_parity' => 'Whether the current data in odd rows',
 
 	'blockxml' => '第三方模块',
+	'blockxml_tips' => '<li>插件开发人员在设计新的第三方模块前请务必仔细阅读《<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
 	'blockxml_list' => '第三方模块列表',
 	'blockxml_name' => '模块名称',
 	'blockxml_signtype_no' => '不使用签名',
