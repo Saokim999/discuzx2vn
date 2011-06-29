@@ -183,7 +183,7 @@ INSERT INTO pre_common_setting VALUES ('activitytype','Gặp bạn bè\r\nĐi d�
 INSERT INTO pre_common_setting VALUES ('adminemail','');
 INSERT INTO pre_common_setting VALUES ('adminipaccess','');
 INSERT INTO pre_common_setting VALUES ('adminnotifytypes','verifythread,verifypost,verifyuser,verifyblog,verifydoing,verifypic,verifyshare,verifycommontes,verifyrecycle,verifyrecyclepost,verifyarticle,verifyacommont,verifymedal,verify_1,verify_2,verify_3,verify_4,verify_5,verify_6,verify_7');
-INSERT INTO pre_common_setting VALUES ('anonymoustext','Nặc danh');
+INSERT INTO pre_common_setting VALUES ('anonymoustext','Ẩn danh');
 
 INSERT INTO pre_common_setting VALUES ('advtype','a:1:{i:0;s:6:\"custom\";}');
 INSERT INTO pre_common_setting VALUES ('allowattachurl','0');

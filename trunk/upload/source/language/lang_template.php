@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php 22717 2011-05-18 05:12:59Z monkey $
+ *      $Id: lang_template.php 23072 2011-06-16 10:45:46Z svn_project_zhangjie $
  *		Translate by DCV team - http://www.discuzviet.net
  *      This file is automatically generate
  */
@@ -198,6 +198,7 @@ $lang = array (
   'e_attach_del' => 'Xóa đính kèm',
   'e_attach_mediacode' => 'Đính kèm Media',
   'e_attach_url' => 'Địa chỉ đính kèm',
+  'readperm' => 'Điểm',
   'update' => 'Cập nhật',
   'none_newthread' => 'Không có chủ đề mới',
   'author' => 'Tác giả',
@@ -323,7 +324,6 @@ $lang = array (
   'forgotpw' => 'Quên mật khẩu',
   'image' => 'Hình',
   'remote' => 'Từ xa',
-
   'credit_ranking' => 'Hạng',
   'auction_ranking' => 'Xếp hạng',
   'close_ranking_note' => 'Quản trị viên đã đóng chức năng này, tạm thời chưa lên hạng tiếp được',
@@ -354,6 +354,7 @@ $lang = array (
   'top_orderby_credits' => 'Tổng số điểm',
   'top_orderby_posts' => 'Tổng số bài',
   'top_orderby_uid' => 'Thời điểm đăng ký',
+  	  
 );
 
 ?>
