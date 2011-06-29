@@ -3,7 +3,7 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *
+ *		Translate by DCV team - http://www.discuzviet.net
  *      $Id: lang_template.php 22880 2011-05-30 01:23:41Z congyushuai $
  *
  *      This file is automatically generate
@@ -20,14 +20,18 @@ $lang = array (
   'login_mobile' => 'Đăng nhập ngay - {$_G[setting][bbname]} Di động',
   'login_mobile_join' => 'Phiên bản Di động giúp truy cập nhanh hơn, mang lại trải nghiệm thú vị',
   'mobile_favorite' => 'Sưu tập nhanh',
+  	  
+  	  
+  	  
   'mobile_favorite_comment' => 'Bạn có thể truy cập vào diễn đàn bằng di động và bookmark nội dung ưa thích',
   'mobile_other_1' => 'Tiết kiệm lưu lượng và tạo trải nghiệm đặc biệt',
   'mobile_pm' => 'Nhận và gửi tin nhắn tức thì, với tin SMS trò chuyện với nhiều người bạn',
   'mobile_viewthread' => 'Gửi và xem bài nhanh hơn',
-
-  
+  	  
+  	  
   'mobile_viewthread_comment' => 'Thông qua phiên bản di động bạn có thể nhanh chóng xem các chủ đề và gửi bài mới',
   'continue' => 'Tiếp tục truy cập',
+  
   'goback' => 'Quay lại',
   'message_forward_mobile' => 'Click để tiếp tục',
   'favorite_delete' => 'Hủy đăng ký',
@@ -51,15 +55,12 @@ $lang = array (
   'admin_threadtopicadmin_error' => 'Chế độ Mobile ko hỗ trợ sửa phức tạp',
   'expiry' => 'Thời gian <span class="xg2">(0 permanent /1 for 1 day)</span>',
   'mod_message_goto_admincp' => 'Bạn cần dùng phiên bản Web để sử dụng các chức năng trong ACP',
-  
   'result' => 'Kết quả tìm kiếm',
   'join_thread' => 'Trả lời',
   'required' => 'Bắt buộc',
   'send_special_activity_error' => 'Phiên bản Di động không hỗ trợ tạo chủ đề <strong>Hoạt động</strong>, xin vui lòng quay lại',
   'send_special_trade_error' => 'Phiên bản di động không hỗ trợ tạo chủ đề <strong>Mua bán</strong>, xin vui lòng quay lại',
   'threadsort_error' => 'Phân loại thông tin chỉ dùng trên giao diện Web.',
-  
-  
   'threadsort_calendar' => 'Định dạng ngày: 2011-05-19',
   'post_poll_options' => 'Bỏ phiếu',
   'admin_close_expire_comment' => '<span class="xg1">Định dạng ngày: 2011-05-19 11:59</span>',
@@ -77,12 +78,10 @@ $lang = array (
   'thread_show_all' => 'Xem tất cả',
   'thread_show_author' => 'Xem tác giả',
   'activity_mod' => 'Bạn cần dùng phiên bản Web để quản lý',
-  
   'poll_msg_allwvote_user' => 'Bạn cần <a href="member.php?mod=logging&action=login">đăng nhập</a> để bình chọn',
   'resolved' => 'Giải quyết',
   'unresolved' => 'Chưa giải quyết',
   'trade_mod' => 'Vui lòng sử dụng phiên bản Web để có đầy đủ chức năng',
-  
   'my_favorites_thread' => 'Bài viết yêu thích của tôi',
   'return_forum' => 'Trở lại diễn đàn',
   'title_memcp_favorite' => 'Yêu thích',
@@ -99,7 +98,6 @@ $lang = array (
   'user_mobile_pm_comment' => 'Gửi tin nhắn SMS sẽ chuyển trở lại trang trước',
   'reset' => 'Reset',
   'reg_username' => 'Username phải từ 3-15 ký tự',
-  
   'viewimg' => 'Xem ảnh',  	  
 );
 
