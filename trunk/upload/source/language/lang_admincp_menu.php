@@ -120,7 +120,7 @@ $lang = array
 	'menu_founder_memberperm' => 'Biên tập nhóm - {username}',
 
 
-	'menu_addons' => 'Mở rộng',
+	'menu_addons' => 'Addons',
 	'menu_plugins' => 'Plugins',
 	'menu_tasks' => 'Nhiệm vụ',
 	'menu_magics' => 'Đạo cụ',
