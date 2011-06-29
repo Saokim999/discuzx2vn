@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *		Lê lết bai DCV Team - kyehani
- *      $Id: install_var.php 22671 2011-05-17 06:00:21Z monkey $
+ *      $Id: install_var.php 23087 2011-06-17 02:55:20Z zhangguosheng $
  */
 
 if(!defined('IN_COMSENZ')) {
@@ -256,7 +256,7 @@ $serialize_sql_setting = array (
   ),
   'seotitle' =>
   array (
-    'portal' => 'Tin tức',
+    'portal' => 'Trang chủ',
     'forum' => 'Diễn đàn',
     'group' => 'Hội nhóm',
     'home' => 'Mạng xã hội',

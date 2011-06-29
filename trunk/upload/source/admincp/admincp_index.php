@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: admincp_index.php 21934 2011-04-18 05:38:00Z svn_project_zhangjie $
+ *      $Id: admincp_index.php 23193 2011-06-24 01:46:47Z liulanbo $
  */
 
 if(!defined('IN_DISCUZ') || !defined('IN_ADMINCP')) {
@@ -145,7 +145,7 @@ if($isfounder) {
 
 	$view_mastermobile = !empty($save_mastermobile) ? substr($save_mastermobile, 0 , 3).'*****'.substr($save_mastermobile, -3) : '';
 
-	$securityadvise = '<li><p>'.cplang('home_security_service_info').'</p></li>'.$securityadvise;
+	$securityadvise = '<li><p>'.cplang('home_security_service_info').'</p><form method="post" autocomplete="off" action="'.ADMINSCRIPT.'?action=index&securyservice=yes">'.cplang('home_security_service_mobile').': <input type="text" class="txt" name="new_mastermobile" value="'.$view_mastermobile.'" size="30" /> <input type="submit" class="btn" name="securyservice" value="'.cplang($view_mastermobile ? 'submit' : 'home_security_service_open').'"  /> <span class="lightfont">'.cplang($view_mastermobile ? 'home_security_service_mobile_save' : 'home_security_service_mobile_none').'</span></form></li>'.$securityadvise;
 }
 
 if($securityadvise) {
@@ -165,6 +165,8 @@ while($online = DB::fetch($query)) {
 
 echo '<div id="boardnews"></div>';
 
+echo '<style>.rssbook{margin:8px 0 0 25px;}</style>';
+echo '<script >var nId = "4d1e7b6dd9c5070d1a82aeb8be5e72fc64db42701a1bc4d4",nWidth="400px",sColor="light",sText="'.cplang('subscribe_comsenz_email').'" ;</script><script src="http://list.qq.com/zh_CN/htmledition/js/qf/page/qfcode.js" charset="gb18030"></script>';
 showtableheader('', 'nobottom fixpadding');
 if($membersmod || $threadsmod || $postsmod || $medalsmod || $blogsmod || $picturesmod || $doingsmod || $sharesmod || $commentsmod || $articlesmod || $articlecommentsmod || $topiccommentsmod || $threadsdel || !empty($verify)) {
 	showtablerow('', '', '<h3 class="left margintop">'.cplang('home_mods').': </h3><p class="left difflink">'.
@@ -221,7 +223,7 @@ loaducenter();
 showtableheader('home_sys_info', 'fixpadding');
 showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight smallfont"'), array(
 	cplang('home_discuz_version'),
-	'Discuz! '.DISCUZ_VERSION.' Release '.DISCUZ_RELEASE.' <a href="http://faq.comsenz.com/checkversion.php?product=Discuz&version='.DISCUZ_VERSION.'&release='.DISCUZ_RELEASE.'&charset='.CHARSET.'&dbcharset='.$dbcharset.'" class="lightlink2 smallfont" target="_blank">'.cplang('home_check_newversion').'</a>'
+	'Discuz! '.DISCUZ_VERSION.' Release '.DISCUZ_RELEASE.' <a href="http://faq.comsenz.com/checkversion.php?product=Discuz&version='.DISCUZ_VERSION.'&release='.DISCUZ_RELEASE.'&charset='.CHARSET.'&dbcharset='.$dbcharset.'" class="lightlink2 smallfont" target="_blank">'.cplang('home_check_newversion').'</a> <a href="http://www.comsenz.com/purchase/discuz/" class="lightlink2 smallfont" target="_blank">&#19987;&#19994;&#25903;&#25345;&#19982;&#26381;&#21153;</a> <a href="http://idc.comsenz.com" class="lightlink2 smallfont" target="_blank">&#68;&#105;&#115;&#99;&#117;&#122;&#33;&#19987;&#29992;&#20027;&#26426;</a>'
 ));
 showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight smallfont"'), array(
 	cplang('home_ucclient_version'),
@@ -317,13 +319,13 @@ showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight team"'
 ));
 showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight"'), array(
 	cplang('home_dev_links'),
-	'<a href="http://www.comsenz.com" class="lightlink2" target="_blank">Trang chủ</a>,
-		<a href="http://www.discuz.net/" class="lightlink2" target="_blank">Trang chủ Discuz</a>,
-		<a href="http://www.comsenz.com/downloads/styles/discuz" class="lightlink2" target="_blank">Giao diện discuz</a>,
+'<a href="http://www.comsenz.com" class="lightlink2" target="_blank">Trang ch&#7911;</a>,
+		<a href="http://www.discuz.net/" class="lightlink2" target="_blank">Trang ch&#7911; Discuz</a>,
+		<a href="http://www.comsenz.com/downloads/styles/discuz" class="lightlink2" target="_blank">Giao di&#7879;n discuz</a>,
 		<a href="http://www.comsenz.com/downloads/plugins/discuz" class="lightlink2" target="_blank">Plugins</a>,
-		<a href="http://faq.comsenz.com" class="lightlink2" target="_blank">Điều lệ</a>,
-		<a href="http://www.traitimyenbai.net/" class="lightlink2" target="_blank">Trái Tim Yên Bái</a>
-		<a href="http://www.discuzviet.net/" class="lightlink2" target="_blank">Diễn đàn hỗ trợ Việt Nam</a>'
+		<a href="http://faq.comsenz.com" class="lightlink2" target="_blank">&#272;i&#7873;u l&#7879;</a>,
+		<a href="http://www.traitimyenbai.net/" class="lightlink2" target="_blank">Tr�i Tim Y�n B�i</a>
+		<a href="http://www.discuzviet.net/" class="lightlink2" target="_blank">Di&#7877;n &#273;�n h&#7895; tr&#7907; Vi&#7879;t Nam</a>'
 ));
 showtablefooter();
 
