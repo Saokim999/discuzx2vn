@@ -60,7 +60,7 @@ function initEditor() {
 		if(buttons[i].id.indexOf(editorid + '_') != -1) {
 			buttons[i].href = 'javascript:;';
 			if(buttons[i].id.substr(buttons[i].id.indexOf('_') + 1) == 'fullswitcher') {
-				buttons[i].innerHTML = !editorisfull ? 'Toàn màn hình' : 'Bình thường';
+				buttons[i].innerHTML = !editorisfull ? 'Full Edit' : 'Bình thường';
 				buttons[i].onmouseover = function(e) {setEditorTip(editorisfull ? 'Phục hồi kích thước bộ soạn thảo' : 'Chỉnh sửa toàn màn hình');};
 				buttons[i].onclick = function(e) {editorfull();doane();}
 			} else if(buttons[i].id.substr(buttons[i].id.indexOf('_') + 1) == 'simple') {
