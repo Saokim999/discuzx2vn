@@ -3,8 +3,8 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *		Modify for SEO url with title by Kyehani
- *      $Id: function_core.php 22775 2011-05-20 05:43:23Z monkey $
+ *
+ *      $Id: function_core.php 22982 2011-06-13 01:52:33Z zhangguosheng $
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -12,77 +12,6 @@ if(!defined('IN_DISCUZ')) {
 }
 
 define('DISCUZ_CORE_FUNCTION', true);
-	//Bo dau tieng viet
-	function locdau($value)
-	{
-	//bat dau loc dau
-	$locdau_in = array (
-	'#(A|Á|À|Ả|Ã|Ạ|Ă|Ắ|Ằ|Ẳ|Ẵ|Ặ|Â|Ấ|Ầ|Ẩ|Ẫ|Ậ|á|à|ả|ã|ạ|ă|ắ|ằ|ẳ|ẵ|ặ|â|ấ|ầ|ẩ|ẫ|ậ)#', 
-	'#(B)#', 
-	'#(C)#', 
-	'#(D|Đ|đ)#', 
-	'#(E|É|È|Ẻ|Ẽ|Ẹ|Ê|Ế|Ề|Ể|Ễ|Ệ|é|è|ẻ|ẽ|ẹ|ê|ế|ề|ể|ễ|ệ)#', 
-	'#(F)#', 
-	'#(G)#', 
-	'#(H)#', 
-	'#(I|Í|Ì|Ỉ|Ĩ|Ị|í|ì|ỉ|ĩ|ị)#', 
-	'#(J)#', 
-	'#(K)#', 
-	'#(L)#', 
-	'#(M)#', 
-	'#(N)#', 
-	'#(O|Ó|Ò|Ỏ|Õ|Ọ|Ô|Ố|Ồ|Ổ|Ỗ|Ộ|Ơ|Ớ|Ờ|Ở|Ỡ|Ợ|ó|ò|ỏ|õ|ọ|ô|ố|ồ|ổ|ỗ|ộ|ơ|ớ|ờ|ở|ỡ|ợ)#', 
-	'#(P)#', 
-	'#(Q)#', 
-	'#(R)#', 
-	'#(S)#', 
-	'#(T)#', 
-	'#(U|Ú|Ù|Ủ|Ũ|Ụ|Ư|Ứ|Ừ|Ử|Ữ|Ự|ú|ù|ủ|ũ|ụ|ư|ứ|ừ|ử|ữ|ự)#', 
-	'#(V)#', 
-	'#(W)#', 
-	'#(X)#', 
-	'#(Ý|Ỳ|Ỷ|Ỹ|Ỵ|Y|ý|ỳ|ỷ|ỹ|ỵ|y)#', 
-	'#(Z)#', 
-	"/[^a-zA-Z0-9\-\_]/", 
-	'#(@)#',
-	) ; 
-	$locdau_out = array ( 
-	'a', 
-	'b', 
-	'c', 
-	'd', 
-	'e', 
-	'f', 
-	'g', 
-	'h', 
-	'i', 
-	'j', 
-	'k', 
-	'l', 
-	'm', 
-	'n', 
-	'o', 
-	'p',
-	'q',
-	'r',
-	's',
-	't',
-	'u',
-	'v',
-	'w',
-	'x',
-	'y',
-	'z',
-	'-',
-	'-',
-	) ; 
-
-	$value = preg_replace($locdau_in, $locdau_out, $value); 
-	$value = preg_replace('/(-)+/', '-', $value);
-	$value = str_replace(array('-quot', '"'), '', $value);
-	//ket thuc loc dau
-		return $value;
-	}
 
 function system_error($message, $show = true, $save = true, $halt = true) {
 	require_once libfile('class/error');
@@ -1060,7 +989,6 @@ function rewriteoutput($type, $returntype, $host) {
 		$r = array(
 			'{fid}' => empty($_G['setting']['forumkeys'][$fid]) ? $fid : $_G['setting']['forumkeys'][$fid],
 			'{page}' => $page ? $page : 1,
-			'{tenbox}' => locdau(DB::result_first("SELECT name FROM ".DB::table('forum_forum')." WHERE fid='$fid'")),
 		);
 	} elseif($type == 'forum_viewthread') {
 		list(,,, $tid, $page, $prevpage, $extra) = func_get_args();
@@ -1068,7 +996,6 @@ function rewriteoutput($type, $returntype, $host) {
 			'{tid}' => $tid,
 			'{page}' => $page ? $page : 1,
 			'{prevpage}' => $prevpage && !IS_ROBOT ? $prevpage : 1,
-			'{tenbai}' => locdau(DB::result_first("SELECT subject FROM ".DB::table('forum_thread')." WHERE tid='$tid'")),
 		);
 	} elseif($type == 'home_space') {
 		list(,,, $uid, $username, $extra) = func_get_args();
@@ -1082,7 +1009,6 @@ function rewriteoutput($type, $returntype, $host) {
 		$r = array(
 			'{uid}' => $uid,
 			'{blogid}' => $blogid,
-			'{tenblog}' => locdau(DB::result_first("SELECT subject FROM ".DB::table('home_blog')." WHERE blogid='$blogid'")),
 		);
 	} elseif($type == 'group_group') {
 		list(,,, $fid, $page, $extra) = func_get_args();
@@ -1224,7 +1150,7 @@ function output_replace($content) {
 	}
 	if(!empty($_G['setting']['output']['preg']['search'])) {
 		if(empty($_G['setting']['domain']['app']['default'])) {
-			$_G['setting']['output']['preg']['search'] = str_replace('\{CURHOST\}', preg_quote($_G['siteurl']), $_G['setting']['output']['preg']['search']);
+			$_G['setting']['output']['preg']['search'] = str_replace('\{CURHOST\}', preg_quote($_G['siteurl'], '/'), $_G['setting']['output']['preg']['search']);
 			$_G['setting']['output']['preg']['replace'] = str_replace('{CURHOST}', $_G['siteurl'], $_G['setting']['output']['preg']['replace']);
 		}
 
@@ -1716,8 +1642,16 @@ function censor($message, $modword = NULL, $return = FALSE) {
 				} elseif($_G['group']['allowposturl'] == 2) {
 					$message = str_replace('[url]'.$urllist[0][$key].'[/url]', $urllist[0][$key], $message);
 					$message = preg_replace(
-						array("@\[url=".preg_quote($urllist[0][$key],'@')."\](.*?)\[/url\]@i", "@href=('|\")".preg_quote($urllist[0][$key],'@')."\\1@i"),
-						array('\\1', ''),
+						array(
+							"@\[url=".preg_quote($urllist[0][$key],'@')."\](.*?)\[/url\]@i",
+							"@href=('|\")".preg_quote($urllist[0][$key],'@')."\\1@i",
+							"@\[url\](.*?".preg_quote($urllist[0][$key],'@').".*?)\[/url\]@i",
+						),
+						array(
+							'\\1',
+							'',
+							'\\1',
+						),
 						$message);
 				}
 			}
@@ -1996,7 +1930,7 @@ function notification_add($touid, $type, $note, $notevars = array(), $system = 0
 	$oldnote = array();
 	if($notevars['from_id'] && $notevars['from_idtype']) {
 		$oldnote = DB::fetch_first("SELECT * FROM ".DB::table('home_notification')."
-			WHERE uid='$touid' AND from_id='$notevars[from_id]' AND from_idtype='$notevars[from_idtype]'");
+			WHERE from_id='$notevars[from_id]' AND from_idtype='$notevars[from_idtype]' AND uid='$touid'");
 	}
 	if(empty($oldnote['from_num'])) $oldnote['from_num'] = 0;
 	$notevars['from_num'] = $notevars['from_num'] ? $notevars['from_num'] : 1;

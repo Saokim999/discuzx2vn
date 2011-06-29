@@ -350,7 +350,7 @@ INSERT INTO pre_common_setting VALUES ('mobile','a:10:{s:11:\"allowmobile\";i:0;
 INSERT INTO pre_common_setting VALUES ('moddisplay','flat');
 INSERT INTO pre_common_setting VALUES ('modratelimit','0');
 INSERT INTO pre_common_setting VALUES ('modreasons','Quảng cáo/SPAM\r\nNội dung xấu\r\nVi phạm\r\nLạc đề\r\nTrùng lặp\r\n\r\nTán thành\r\nTinh phẩm\r\nNguyên tác');
-INSERT INTO pre_common_setting VALUES ('userreasons','Cổ vũ nhiệt tình!\r\nĐiện toán đám mây thông minh\r\nỦng hộ 1 cái!\r\nHàng dỏm\r\nXem xét');
+INSERT INTO pre_common_setting VALUES ('userreasons','Cảm ơn bạn\r\nBài viết hữu ích\r\nỦng hộ 1 cái!\r\nẢnh đẹp quá\r\nỦng hộ bạn');
 INSERT INTO pre_common_setting VALUES ('modworkstatus','1');
 INSERT INTO pre_common_setting VALUES ('msgforward','a:3:{s:11:\"refreshtime\";i:3;s:5:\"quick\";i:1;s:8:\"messages\";a:14:{i:0;s:19:\"thread_poll_succeed\";i:1;s:19:\"thread_rate_succeed\";i:2;s:23:\"usergroups_join_succeed\";i:3;s:23:\"usergroups_exit_succeed\";i:4;s:25:\"usergroups_update_succeed\";i:5;s:20:\"buddy_update_succeed\";i:6;s:17:\"post_edit_succeed\";i:7;s:18:\"post_reply_succeed\";i:8;s:24:\"post_edit_delete_succeed\";i:9;s:22:\"post_newthread_succeed\";i:10;s:13:\"admin_succeed\";i:11;s:17:\"pm_delete_succeed\";i:12;s:15:\"search_redirect\";i:13;s:10:\"do_success\";}}');
 INSERT INTO pre_common_setting VALUES ('msn','');
