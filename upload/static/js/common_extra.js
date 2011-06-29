@@ -2,7 +2,7 @@
 	[Discuz!] (C)2001-2009 Comsenz Inc.
 	This is NOT a freeware, use is subject to license terms
 	Translate by DCV team
-	$Id: common_extra.js 22557 2011-05-12 06:57:12Z zhangguosheng $
+	$Id: common_extra.js 22925 2011-06-01 10:23:08Z liulanbo $
 */
 
 function _relatedlinks(rlinkmsgid) {
@@ -28,8 +28,11 @@ function _relatedlinks(rlinkmsgid) {
 		for(var j = 0; j > -1; j++) {
 			if(relatedlink[j] && !relatedid[j]) {
 				var ra = '<a href="'+relatedlink[j]['surl']+'" target="_blank" class="relatedlink">'+relatedlink[j]['sname']+'</a>';
+				var $rtmp = $3;
 				$3 = $3.replace(relatedlink[j]['sname'], ra);
-				relatedid[j] = 1;
+				if($3 != $rtmp) {
+					relatedid[j] = 1;
+				}
 			} else {
 				break;
 			}
@@ -406,7 +409,7 @@ function _zoom(obj, zimg, nocover, pn) {
 				paid = authorcurrent > 0 ? authorimgs[authorcurrent - 1] : authorimgs[authorlength - 1];
 				picpage += ' <div id="zimg_prev" onmouseover="dragMenuDisabled=true;this.style.backgroundPosition=\'0 50px\'" onmouseout="dragMenuDisabled=false;this.style.backgroundPosition=\'0 -100px\';" onclick="zoom($(\'aimg_' + paid + '\'), $(\'aimg_' + paid + '\').getAttribute(\'zoomfile\'), 0, 1)" class="zimg_prev"><strong>Trước</strong></div> ';
 				paid = authorcurrent < authorlength - 1 ? authorimgs[authorcurrent + 1] : authorimgs[0];
-				picpage += ' <div id="zimg_next" onmouseover="dragMenuDisabled=true;this.style.backgroundPosition=\'100% 50px\'" onmouseout="dragMenuDisabled=false;this.style.backgroundPosition=\'100% -100px\';" onclick="zoom($(\'aimg_' + paid + '\'), $(\'aimg_' + paid + '\').getAttribute(\'zoomfile\'), 0, 1)" class="zimg_next"><strong>Tiếp</strong></div> ';
+				picpage += ' <div id="zimg_next" onmouseover="dragMenuDisabled=true;this.style.backgroundPosition=\'100% 50px\'" onmouseout="dragMenuDisabled=false;this.style.backgroundPosition=\'100% -100px\';" onclick="zoom($(\'aimg_' + paid + '\'), $(\'aimg_' + paid + '\').getAttribute(\'zoomfile\'), 0, 1)" class="zimg_next"><strong>Tiếp theo</strong></div> ';
 			}
 			if(picpage) {
 				$(menuid + '_picpage').innerHTML = picpage;
