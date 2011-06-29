@@ -421,7 +421,7 @@ function updateattachnum(type) {
 	var num = ATTACHNUM[type + 'used'] + ATTACHNUM[type + 'unused'];
 	if(num) {
 		if($(editorid + '_' + type)) {
-			$(editorid + '_' + type).title = 'Có chứa ' + num + (type == 'image' ? ' hình ảnh đính kèm' : ' tệp đính kèm');
+			$(editorid + '_' + type).title = 'Có chứa ' + num + (type == 'image' ? ' ảnh đính kèm' : ' file đính kèm');
 		}
 		if($(editorid + '_' + type + 'n')) {
 			$(editorid + '_' + type + 'n').style.display = '';

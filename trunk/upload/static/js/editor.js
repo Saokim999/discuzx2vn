@@ -61,7 +61,7 @@ function initEditor() {
 			buttons[i].href = 'javascript:;';
 			if(buttons[i].id.substr(buttons[i].id.indexOf('_') + 1) == 'fullswitcher') {
 				buttons[i].innerHTML = !editorisfull ? 'Toàn màn hình' : 'Bình thường';
-buttons[i].onmouseover = function(e) {setEditorTip(editorisfull ? 'Phục hồi kích thước bộ soạn thảo' : 'Chỉnh sửa toàn màn hình');};
+				buttons[i].onmouseover = function(e) {setEditorTip(editorisfull ? 'Phục hồi kích thước bộ soạn thảo' : 'Chỉnh sửa toàn màn hình');};
 				buttons[i].onclick = function(e) {editorfull();doane();}
 			} else if(buttons[i].id.substr(buttons[i].id.indexOf('_') + 1) == 'simple') {
 				buttons[i].innerHTML = !simplodemode ? 'Cơ bản' : 'Nâng cao';
@@ -288,7 +288,7 @@ function editorfull(op) {
 	if(iswysiwyg) {
 		switchEditor(1);
 	}
-	$(editorid + '_fullswitcher').innerHTML = editorisfull ? 'Quay lại' : 'Toàn màn hình';
+	$(editorid + '_fullswitcher').innerHTML = editorisfull ? 'Quay lại' : 'Full Edit';
 }
 
 function editorsimple() {
@@ -408,7 +408,7 @@ function checkFocus() {
 
 function checklength(theform) {
 	var message = wysiwyg ? html2bbcode(getEditorContents()) : (!theform.parseurloff.checked ? parseurl(theform.message.value) : theform.message.value);
-	showDialog('Hiện chiều dài: ' + mb_strlen(message) + ' Byte,' + (postmaxchars != 0 ? 'Hệ thống giới hạn: ' + postminchars + ' Để ' + postmaxchars + ' Byte.' : ''), 'notice', 'Kiểm tra ký tự');
+	showDialog('Hiện chiều dài: ' + mb_strlen(message) + ' ký tự,' + (postmaxchars != 0 ? 'Hệ thống giới hạn: ' + postminchars + ' Để ' + postmaxchars + ' ký tự.' : ''), 'notice', 'Kiểm tra ký tự');
 }
 
 function setUnselectable(obj) {
@@ -884,7 +884,7 @@ function formatFontsize(csssize) {
 		case '24pt': return 6;
 		case '48px':
 		case '36pt': return 7;
-		default: return 'Kích thước';
+		default: return 'Cỡ';
 	}
 }
 
