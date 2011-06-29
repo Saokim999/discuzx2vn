@@ -131,8 +131,8 @@ a.faq { background: url(faq.gif) no-repeat 0 2px; padding:1px; margin-left:10px;
 .login{ padding-right:30px; width:310px; height:150px; background:url(bg_login.gif) right 50% no-repeat; }
 	.login h1{ text-indent:-9999px; margin-bottom:10px; width:262px; height:26px; background:url(login_title.gif) no-repeat; }
 	.login p{ line-height:150%; }
-.logintitle, .loginform { margin:2px 0; height:22px; line-height:22px; font-size:14px; }
-.logintitle{ float:left; clear:left; width:60px; font-weight:700; color:#666; }
+.logintitle, .loginform { margin:2px 0; height:22px; line-height:22px; font-size:11px; }
+.logintitle{ float:left; clear:left; width:80px; font-weight:700; color:#666; }
 .loginform{ float:left; width:160px; }
 	.loginform .txt{ margin-top:1px; width:150px; }
 	.loginform select { margin-top:1px; padding:1px; width:156px; }
