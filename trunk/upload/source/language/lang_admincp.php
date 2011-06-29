@@ -11,7 +11,7 @@
 $lang = array
 (
 
-	'subscribe_comsenz_email' => 'Điền địa chỉ e-mail của bạn, đăng ký phát triển sản phẩm Discuz! chính thức, nhắc nhở an toàn, tin tức chính thức',
+	'subscribe_comsenz_email' => 'Điền Email của bạn để nhận các bản vá lỗi và phiên bản mới',
 	'reglinkname_default' => 'Đăng ký',
 	'yes' => 'Có',
 	'no' => 'Không',

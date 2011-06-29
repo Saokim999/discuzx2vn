@@ -223,7 +223,7 @@ loaducenter();
 showtableheader('home_sys_info', 'fixpadding');
 showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight smallfont"'), array(
 	cplang('home_discuz_version'),
-	'Discuz! '.DISCUZ_VERSION.' Release '.DISCUZ_RELEASE.' <a href="http://faq.comsenz.com/checkversion.php?product=Discuz&version='.DISCUZ_VERSION.'&release='.DISCUZ_RELEASE.'&charset='.CHARSET.'&dbcharset='.$dbcharset.'" class="lightlink2 smallfont" target="_blank">'.cplang('home_check_newversion').'</a> <a href="http://www.comsenz.com/purchase/discuz/" class="lightlink2 smallfont" target="_blank">&#19987;&#19994;&#25903;&#25345;&#19982;&#26381;&#21153;</a> <a href="http://idc.comsenz.com" class="lightlink2 smallfont" target="_blank">&#68;&#105;&#115;&#99;&#117;&#122;&#33;&#19987;&#29992;&#20027;&#26426;</a>'
+	'Discuz! '.DISCUZ_VERSION.' Release '.DISCUZ_RELEASE.' <a href="http://faq.comsenz.com/checkversion.php?product=Discuz&version='.DISCUZ_VERSION.'&release='.DISCUZ_RELEASE.'&charset='.CHARSET.'&dbcharset='.$dbcharset.'" class="lightlink2 smallfont" target="_blank">'.cplang('home_check_newversion').'</a>'
 ));
 showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight smallfont"'), array(
 	cplang('home_ucclient_version'),
@@ -324,7 +324,7 @@ showtablerow('', array('class="vtop td24 lineheight"', 'class="lineheight"'), ar
 		<a href="http://www.comsenz.com/downloads/styles/discuz" class="lightlink2" target="_blank">Giao di&#7879;n discuz</a>,
 		<a href="http://www.comsenz.com/downloads/plugins/discuz" class="lightlink2" target="_blank">Plugins</a>,
 		<a href="http://faq.comsenz.com" class="lightlink2" target="_blank">&#272;i&#7873;u l&#7879;</a>,
-		<a href="http://www.traitimyenbai.net/" class="lightlink2" target="_blank">Trái Tim Yên Bái</a>
+		<a href="http://www.traitimyenbai.net/" class="lightlink2" target="_blank">Tr&#225;i Tim Y&#234;n B&#225;i</a>
 		<a href="http://www.discuzviet.net/" class="lightlink2" target="_blank">Di&#7877;n &#273;àn h&#7895; tr&#7907; Vi&#7879;t Nam</a>'
 ));
 showtablefooter();
