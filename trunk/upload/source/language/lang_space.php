@@ -234,7 +234,7 @@ $lang = array(
 	'viewthread_userinfo_readperm' => 'Quyền đọc',
 	'viewthread_userinfo_regtime' => 'Đăng ký',
 	'viewthread_userinfo_lastdate' => 'Đăng nhập lần cuối',
-	'viewthread_userinfo_oltime' => 'Thời gian hoạt động',
+	'viewthread_userinfo_oltime' => 'Online',
 
 );
 
