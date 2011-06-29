@@ -1158,11 +1158,11 @@ $lang = array (
   array (
     'index' =>
     array (
-      'Mở rộng' => 'action=addons',
+      'Addons' => 'action=addons',
     ),
     'text' =>
     array (
-      0 => 'Mở rộng',
+      0 => 'Addons',
     ),
   ),
   105 =>
