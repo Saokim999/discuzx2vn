@@ -663,7 +663,7 @@ $lang = array (
   'eccredit_reexplanation_repeat' => 'Không lặp lại các lời giải thích',
   'eccredit_reexplanation_closed' => 'Có lỗi, Cho phép giải thích hết hạn',
 
-  'favorite_delete_succeed' => 'xoá yêu thích thành công ',
+  'favorite_delete_succeed' => 'Xoá yêu thích thành công ',
   'favorite_does_not_exist' => 'Có lỗi, Các bộ sưu tập mà bạn chỉ định không tồn tại',
   'no_privilege' => 'Có lỗi, Hiện tại, bạn không được phép làm điều này <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
   'favorite_cannot_favorite' => 'Có lỗi, Bạn có thể thu thập thông tin',
