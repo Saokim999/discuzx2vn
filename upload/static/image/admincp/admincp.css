@@ -46,7 +46,7 @@ h3{ margin-bottom:10px; font-size:14px; color:#09C; }
 			.btnlink a{ display:block; margin-left:10px; width:63px; height:32px; text-align:center; background:url(bg_repno.gif) no-repeat -50px -150px; }
 	.navbg{ position:absolute; z-index:1; top:52px; left:153px; width:6px; height:37px; background:#F7FAFD; }
 	.nav{ position:absolute; z-index:2; top:14px; left:159px; width:100%; height:75px; }
-		.nav ul{ overflow:hidden; position:relative; z-index:4; font-size:14px; }
+		.nav ul{ overflow:hidden; position:relative; z-index:4; font-size:12px; }
 			.nav li{ float:left; height:43px; line-height:43px; background:url(btn_block.gif) right -115px no-repeat; }
 				.nav li em{ display:block; }
 				.nav li a{ padding:5px 5px; color:#639BB0; font-weight:700; }
