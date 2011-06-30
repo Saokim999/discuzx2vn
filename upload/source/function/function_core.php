@@ -3,7 +3,7 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *
+ *		Modify for seo with title by Kyehani
  *      $Id: function_core.php 22982 2011-06-13 01:52:33Z zhangguosheng $
  */
 
@@ -12,7 +12,77 @@ if(!defined('IN_DISCUZ')) {
 }
 
 define('DISCUZ_CORE_FUNCTION', true);
+	//Bo dau tieng viet
+	function locdau($value)
+	{
+	//bat dau loc dau
+	$locdau_in = array (
+	'#(A|Á|À|Ả|Ã|Ạ|Ă|Ắ|Ằ|Ẳ|Ẵ|Ặ|Â|Ấ|Ầ|Ẩ|Ẫ|Ậ|á|à|ả|ã|ạ|ă|ắ|ằ|ẳ|ẵ|ặ|â|ấ|ầ|ẩ|ẫ|ậ)#', 
+	'#(B)#', 
+	'#(C)#', 
+	'#(D|Đ|đ)#', 
+	'#(E|É|È|Ẻ|Ẽ|Ẹ|Ê|Ế|Ề|Ể|Ễ|Ệ|é|è|ẻ|ẽ|ẹ|ê|ế|ề|ể|ễ|ệ)#', 
+	'#(F)#', 
+	'#(G)#', 
+	'#(H)#', 
+	'#(I|Í|Ì|Ỉ|Ĩ|Ị|í|ì|ỉ|ĩ|ị)#', 
+	'#(J)#', 
+	'#(K)#', 
+	'#(L)#', 
+	'#(M)#', 
+	'#(N)#', 
+	'#(O|Ó|Ò|Ỏ|Õ|Ọ|Ô|Ố|Ồ|Ổ|Ỗ|Ộ|Ơ|Ớ|Ờ|Ở|Ỡ|Ợ|ó|ò|ỏ|õ|ọ|ô|ố|ồ|ổ|ỗ|ộ|ơ|ớ|ờ|ở|ỡ|ợ)#', 
+	'#(P)#', 
+	'#(Q)#', 
+	'#(R)#', 
+	'#(S)#', 
+	'#(T)#', 
+	'#(U|Ú|Ù|Ủ|Ũ|Ụ|Ư|Ứ|Ừ|Ử|Ữ|Ự|ú|ù|ủ|ũ|ụ|ư|ứ|ừ|ử|ữ|ự)#', 
+	'#(V)#', 
+	'#(W)#', 
+	'#(X)#', 
+	'#(Ý|Ỳ|Ỷ|Ỹ|Ỵ|Y|ý|ỳ|ỷ|ỹ|ỵ|y)#', 
+	'#(Z)#', 
+	"/[^a-zA-Z0-9\-\_]/", 
+	'#(@)#',
+	) ; 
+	$locdau_out = array ( 
+	'a', 
+	'b', 
+	'c', 
+	'd', 
+	'e', 
+	'f', 
+	'g', 
+	'h', 
+	'i', 
+	'j', 
+	'k', 
+	'l', 
+	'm', 
+	'n', 
+	'o', 
+	'p',
+	'q',
+	'r',
+	's',
+	't',
+	'u',
+	'v',
+	'w',
+	'x',
+	'y',
+	'z',
+	'-',
+	'-',
+	) ; 
 
+	$value = preg_replace($locdau_in, $locdau_out, $value); 
+	$value = preg_replace('/(-)+/', '-', $value);
+	$value = str_replace(array('-quot', '"'), '', $value);
+	//ket thuc loc dau
+		return $value;
+	}
 function system_error($message, $show = true, $save = true, $halt = true) {
 	require_once libfile('class/error');
 	discuz_error::system_error($message, $show, $save, $halt);
@@ -512,7 +582,7 @@ function template($file, $templateid = 0, $tpldir = '', $gettplfile = 0, $primal
 		$file = empty($clonefile) || STYLEID != $_G['cache']['style_default']['styleid'] ? $file : $file.'_'.$clonefile;
 		if($templateid == 'diy' && STYLEID == $_G['cache']['style_default']['styleid']) {
 			$_G['style']['prefile'] = '';
-			$diypath = DISCUZ_ROOT.'./data/diy/'; //DIY模板文件目录
+			$diypath = DISCUZ_ROOT.'./data/diy/'; //DIYæ¨¡æ¿æ–‡ä»¶ç›®å½•
 			$preend = '_diy_preview';
 			$_G['gp_preview'] = !empty($_G['gp_preview']) ? $_G['gp_preview'] : '';
 			$curtplname = $oldfile;
@@ -526,7 +596,7 @@ function template($file, $templateid = 0, $tpldir = '', $gettplfile = 0, $primal
 				$tpldir = 'data/diy';
 				!$gettplfile && $_G['style']['tplsavemod'] = $tplsavemod;
 				$curtplname = $file;
-				if($_G['gp_diy'] == 'yes' || $_G['gp_preview'] == 'yes') { //DIY模式或预览模式下做以下判断
+				if($_G['gp_diy'] == 'yes' || $_G['gp_preview'] == 'yes') { //DIYæ¨¡å¼æˆ–é¢„è§ˆæ¨¡å¼ä¸‹åšä»¥ä¸‹åˆ¤æ–­
 					$flag = file_exists($diypath.$file.$preend.'.htm');
 					if($_G['gp_preview'] == 'yes') {
 						$file .= $flag ? $preend : '';
@@ -989,6 +1059,7 @@ function rewriteoutput($type, $returntype, $host) {
 		$r = array(
 			'{fid}' => empty($_G['setting']['forumkeys'][$fid]) ? $fid : $_G['setting']['forumkeys'][$fid],
 			'{page}' => $page ? $page : 1,
+			'{tenbox}' => locdau(DB::result_first("SELECT name FROM ".DB::table('forum_forum')." WHERE fid='$fid'")),
 		);
 	} elseif($type == 'forum_viewthread') {
 		list(,,, $tid, $page, $prevpage, $extra) = func_get_args();
@@ -996,6 +1067,7 @@ function rewriteoutput($type, $returntype, $host) {
 			'{tid}' => $tid,
 			'{page}' => $page ? $page : 1,
 			'{prevpage}' => $prevpage && !IS_ROBOT ? $prevpage : 1,
+			'{tenbai}' => locdau(DB::result_first("SELECT subject FROM ".DB::table('forum_thread')." WHERE tid='$tid'")),
 		);
 	} elseif($type == 'home_space') {
 		list(,,, $uid, $username, $extra) = func_get_args();
@@ -1009,6 +1081,7 @@ function rewriteoutput($type, $returntype, $host) {
 		$r = array(
 			'{uid}' => $uid,
 			'{blogid}' => $blogid,
+			'{tenblog}' => locdau(DB::result_first("SELECT subject FROM ".DB::table('home_blog')." WHERE blogid='$blogid'")),
 		);
 	} elseif($type == 'group_group') {
 		list(,,, $fid, $page, $extra) = func_get_args();
