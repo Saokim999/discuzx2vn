@@ -59,13 +59,13 @@ Trân trọng!<br />
 <p>{username},
 Thư này gửi từ {bbname} .</p>
 
-<p>Bạn nhận được email này, là do bạn là Người sử dụng mới được đăng ký, hoặc người dùng phải sửa đổi tại {bbname} sử dụng địa chỉ Email này. Nếu bạn không truy cập {bbname}, hoặc không làm như vậy, xin vui lòng bỏ qua thông báo này. Bạn không cần phải ngừng đăng ký hoặc thêm hành động khác.</p>
+<p>Bạn nhận được email này, là do bạn là Người đăng ký, hoặc đổi lại địa chỉ email tại {bbname}. Nếu như không phải bạn đăng ký tại {bbname}, xin vui lòng bỏ qua thông báo này nếu bạn thấy phiền.</p>
 <br />
 ----------------------------------------------------------------------<br />
 <strong>Hướng dẫn kích hoạt tài khoản</strong><br />
 ----------------------------------------------------------------------<br />
 
-<p>Nếu bạn là một người dùng mới đăng kí tại {bbname}, hoặc sửa đổi địa chỉ Email của bạn sử dụng để đăng kí, chúng tôi cần xác minh tính hợp lệ của địa chỉ của bạn để tránh spam email hoặc bị lạm dụng.</p>
+<p>Nếu bạn là một người dùng mới đăng kí tại {bbname}, hoặc sửa đổi địa chỉ Email của bạn, chúng tôi cần xác minh tính hợp lệ của địa chỉ của bạn để tránh spam email hoặc bị lạm dụng.</p>
 
 <p>Chỉ cần nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:<br />
 
