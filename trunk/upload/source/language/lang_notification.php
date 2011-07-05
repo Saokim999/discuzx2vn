@@ -110,7 +110,7 @@ Tính đến nay, bạn đã bị cảnh báo {authorwarnings} lần, xin lưu �
 	'addfunds' => 'Bạn đã nạp điểm thành công, số tiền tương ứng đã được chuyển vào tài khoản của bạn ! &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Xem &rsaquo;</a>
 <p class="summary">Số lệnh:<span>{orderid}</span></p><p class="summary">Chi:<span>{price} VNĐ</span></p><p class="summary">Thu nhập:<span>{value}</span></p>',
 
-	'rate_reason' => 'Chủ đề <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> đăng bởi {actor} xếp hạng {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'rate_reason' => 'Chủ đề <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> đăng bởi {actor} đánh giá {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 
 	'rate_removereason' => '{actor} thu hồi chủ đề <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> số điểm trong bài viết {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
