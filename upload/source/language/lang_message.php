@@ -301,7 +301,7 @@ $lang = array (
   'thread_rate_anonymous' => 'Có lỗi, Bạn không thể đăng bài xếp hạng vô danh',
   'thread_rate_banned' => 'Có lỗi, Bạn không thể đăng bài điểm về che chắn',
   'thread_rate_duplicate' => 'Bạn không được cho điểm hai lần',
-  'thread_rate_range_self_invalid' => 'Có lỗi, Của bạn{extcreditstitle}Không đủ xếp hạng',
+  'thread_rate_range_self_invalid' => 'Có lỗi, {extcreditstitle} Của bạn hông đủ xếp hạng',
   'thread_rate_ctrl' => 'Có lỗi, 24 Giờ tỷ lệ vượt quá giới hạn',
   'thread_rate_succeed' => 'Cảm ơn bạn đã tham gia bình chọn, bây giờ bạn sẽ được chuyển đến trang cũ',
   'no_privilege_removerate' => 'Có lỗi, Bạn không có quyền thu hồi xếp hạng',
@@ -697,7 +697,7 @@ $lang = array (
   'return_red_bag' => 'Thu hồi phong bì thành công {leftcredit} {credittype}',
 
   'delete_pm_error_option' => 'Có lỗi, Bạn đã làm sai',
-  'delete_pm_success' => 'Xóa phòng chát thành công ',
+  'delete_pm_success' => 'Xóa Tin nhắn thành công ',
   'this_message_could_note_be_option' => 'Có lỗi, Bạn đã làm sai',
   'unable_to_send_air_news' => 'Có lỗi, Không thể gửi một tin nhắn trống',
   'message_bad_touid' => 'Có lỗi, Người dùng không tồn tại, kiểm tra đúng uid người sử dụng',
