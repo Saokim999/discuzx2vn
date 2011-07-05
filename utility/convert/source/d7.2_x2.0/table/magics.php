@@ -65,9 +65,9 @@ if($nextid) {
 		$creditstran = $creditstranssi[3] ? $creditstranssi[3] : $creditstranssi[0];
 		$db_target->query("UPDATE $table_target SET credit='$creditstran'");
 	}
-	$db_target->query("UPDATE $table_target SET name='变色卡', description='可以将帖子或日志的标题高亮，变更颜色' WHERE identifier='highlight'");
-	$db_target->query("UPDATE $table_target SET name='显身卡', description='可以查看一次匿名用户的真实身份。' WHERE identifier='namepost'");
-	$db_target->query("UPDATE $table_target SET name='匿名卡', description='在指定的地方，让自己的名字显示为匿名。' WHERE identifier='anonymouspost'");
+	$db_target->query("UPDATE $table_target SET name='Thẻ mầu', description='Bạn có thể đổi mầu tiêu đề bài viết' WHERE identifier='highlight'");
+	$db_target->query("UPDATE $table_target SET name='Thẻ soi tên', description='Bạn có thể xem tên thật của người Vô danh' WHERE identifier='namepost'");
+	$db_target->query("UPDATE $table_target SET name='Thẻ vô danh', description='Tại Chủ đề chỉ định, tên bạn sẽ hiện là Vô danh' WHERE identifier='anonymouspost'");
 }
 
 ?>
