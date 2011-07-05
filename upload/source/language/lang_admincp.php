@@ -1987,7 +1987,7 @@ $lang = array
 
 	'mobile' => 'Di động',
 	'setting_mobile' => 'Cài đặt phiên bản di động',
-	'setting_mobile_status' => 'Cài đặt di động toàn cầu',
+	'setting_mobile_status' => 'Cài đặt phiên bản Mobile',
 	'setting_mobile_index' => 'Cài đặt trang chủ',
 	'setting_mobile_forums' => 'Cài đặt diễn đàn',
 	'setting_mobile_status_tips' => '<li>提供方便手机方式浏览的页面，此功能仅限论坛范围内。</li><li>本手机功能页仅支持WAP2.0(XHTML方式)以上的手机浏览器进行访问。</li><li>手机浏览图片宽度为200像素以内缩略图。</li>',
@@ -3031,8 +3031,8 @@ $lang = array
 	'members_profile_edit_privacy_friend' => 'Bạn bè có thể nhìn thấy',
 	'members_profile_edit_privacy_secret' => 'Bí mật',
 	'members_profile_edit_profile_view' => 'Trang thông tin',
-	'members_profile_edit_card_view' => '名片中显示',
-	'members_profile_edit_reg_view' => '注册页显示',
+	'members_profile_edit_card_view' => 'Thẻ Card Visit',
+	'members_profile_edit_reg_view' => 'Trang cá nhân',
 
 
 	'members_stat_options' => 'Số liệu thống kê chính',
