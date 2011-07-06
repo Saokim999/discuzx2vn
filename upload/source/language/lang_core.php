@@ -201,7 +201,7 @@ $lang = array
 	'title_userapp_manage' => 'Quản lí {userapp}',
 	'faq' => 'Trợ giúp',
 	'search' => 'Tìm kiếm',
-	'page' => '{page} trang',
+	'page' => 'trang {page}',
 );
 
 ?>

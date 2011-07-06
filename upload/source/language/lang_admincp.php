@@ -1123,7 +1123,7 @@ $lang = array
 	'setting_optimize' => 'Tối ưu hóa',
 
 	'setting_seo' => 'SEO',
-	'setting_seo_insallowcode' => 'Sẵn mã, nhấn vào Insert',
+	'setting_seo_insallowcode' => 'Mã thay thế, Ấn vào để chèn',
 	'setting_seo_opendetail' => 'Thông tin chi tiết thiết lập để bắt đầu',
 	'setting_seo_closedetail' => 'Thông tin chi tiết thiết lập để đóng',
 	'setting_seo_portal' => 'Portal',
