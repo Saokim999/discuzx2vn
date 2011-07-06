@@ -1992,7 +1992,7 @@ $lang = array
 	'setting_mobile_forums' => 'Cài đặt diễn đàn',
 	'setting_mobile_status_tips' => '<li>Cung cấp tính năng thuận tiện để duyệt forum qua di động</li><li>Chỉ hỗ trợ WAP2.0 (XHTML)</li><li>Mobile browser width of 200 pixels within the image thumbnail. Browser access.</li>',
 	'setting_mobile_allowmobile' => 'Mở chế độ duyệt web di động',
-	'setting_mobile_allowmobile_comment' => 'Mở tính năng này người dùng truy cập vào diễn đàn bằng di động sẽ được tự chuyển sang giao diện Mobile<br />Please enter the mobile phone to access the domain name configuration: <a href="?action=domain&operation=app">Tổng thể - Tên miền - Ứng dụng tên miền</a><br />Chỉnh sửa thiết lập, chuyển hướng：<a href="?action=nav&operation=footernav">Sửa tên dưới Footer</a>',
+	'setting_mobile_allowmobile_comment' => 'Mở tính năng này người dùng truy cập vào diễn đàn bằng di động sẽ được tự chuyển sang giao diện Mobile<br />Cấu hình tên miền cho trang WAP Mobile: <a href="?action=domain&operation=app">Tổng thể - Tên miền - Ứng dụng tên miền</a><br />Chỉnh sửa thiết lập, chuyển hướng：<a href="?action=nav&operation=footernav">Sửa tên dưới Footer</a>',
 	'setting_mobile_mobileforward' => 'Mở trình duyệt bằng điện thoại web sẽ tự chuyển',
 	'setting_mobile_mobileforward_comment' => 'Khi người dùng mở trình duyệt bằng điện thoại để truy diễn đàn sẽ tự động chuyển đến trang chủ',
 	'setting_mobile_preview' => 'Xem phiên bản Mobile trên máy tính',
