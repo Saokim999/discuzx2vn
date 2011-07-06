@@ -33,7 +33,7 @@ while ($row = $db_source->fetch_array($query)) {
 }
 
 if($nextid) {
-	showmessage("Tiếp tục convert DB ".$table_source." $start 至 ".($start+$limit)." 行", "index.php?a=$action&source=$source&prg=$curprg&start=".($start+$limit));
+	showmessage("Tiếp tục convert DB ".$table_source." $start tới ".($start+$limit)." dòng", "index.php?a=$action&source=$source&prg=$curprg&start=".($start+$limit));
 } else {
 	$query = $db_target->query("SELECT uid, allowgetattach FROM $table_target");
 	while ($row = $db_target->fetch_array($query)) {
