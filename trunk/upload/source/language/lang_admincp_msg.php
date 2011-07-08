@@ -250,9 +250,9 @@ $lang = array (
   'founder_perm_notifyusers_succeed' => 'quản lý để thông báo cho người nhận thiết lập thành công ',
 
   'group_status_off' => 'Bật chức năng nhóm, bây giờ đi đến trang thiết lập nhóm',
-  'group_update_succeed' => 'thiết lập nhóm phân loại cập nhật thành công ',
-  'grouptype_delete_succeed' => 'nhóm phân loại đã xóa thành công ',
-  'grouptype_delete_sub_notnull' => 'có sự phân loại thấp hơn, xin vui lòng trở lại để xóa các hạng mục hoặc danh mục của các nhóm cấp dưới ',
+  'group_update_succeed' => 'Thiết lập nhóm thành công ',
+  'grouptype_delete_succeed' => 'Nhóm phân loại đã xóa thành công ',
+  'grouptype_delete_sub_notnull' => 'Có sự phân loại thấp hơn, xin vui lòng trở lại để xóa các hạng mục hoặc danh mục của các nhóm cấp dưới ',
   'grouptype_delete_confirm' => 'Hành động này không thể được phục hồi, bạn chắc chắn muốn xóa các thể loại, trong đó loại bỏ các bài viết và file đính kèm? <br /> Lưu ý: Việc xóa một nhóm không cập nhật các bài viết của người dùng và hội nhập ',
   'Grouptype_delete_alarm' => 'Hành động này không thể được phục hồi, dữ liệu sẽ bị xóa nhóm ..',
   'group_name_exist' => 'tên nhóm đã tồn tại',
