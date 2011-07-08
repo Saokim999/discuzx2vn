@@ -110,6 +110,7 @@ echo <<<EOT
 </div>
 <div class="copyright">
 	<p>Powered by <a href="http://www.discuz.net/" target="_blank">Discuz!</a> {$_G['setting']['version']}</p>
+	<p>Edit by <a href="http://traitimyenbai.net" target="_blank">Saokim999</a></p>
 	<p>&copy; 2001-2011, <a href="http://www.comsenz.com/" target="_blank">Comsenz Inc.</a></p>
 </div>
 
