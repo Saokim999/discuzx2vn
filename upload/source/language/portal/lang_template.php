@@ -3,7 +3,7 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *		Translate by DCV team - http://www.discuzviet.net
+ *
  *      $Id: lang_template.php 22717 2011-05-18 05:12:59Z monkey $
  *
  *      This file is automatically generate
@@ -20,7 +20,7 @@ $lang = array (
   'moderate_not_validate' => 'Đánh giá không vượt qua',
   'quote' => 'Trích dẫn',
   'article_publish' => 'Được đăng bài viết',
-  'category' => 'Hạng mục',
+  'category' => 'Danh mục',
   'category_related' => 'Mục liên quan',
   'portal' => '{$_G[setting][navs][1][navname]}',
   'rss_subscribe_this' => 'Đăng ký',
@@ -29,9 +29,9 @@ $lang = array (
   'article_last' => 'Bài mới nhất',
   'latest_comment' => 'Bình luận mới nhất',
   'view_all_comments' => 'Xem tất cả bình luận',
-  'diyhelp_doit' => 'Trang chưa được cài đặt module, hãy click vào nút DIY để cài đặt ',
+  'diyhelp_doit' => 'Trang chưa được cài đặt module, hãy click vào nút DIY để cài đặt',
   'diyhelp_import' => 'trang mẫu',
-  'diyhelp_no_content' => 'Đang được xây dựng……',
+  'diyhelp_no_content' => 'Đang được xây dựng…',
   'diyhelp_start_diy' => 'Bắt đầu DIY',
   'frame' => 'Khung',
   'article_add_page' => 'Thêm một trang cho bài viết',
@@ -66,9 +66,9 @@ $lang = array (
   'article_validate_category' => 'Hãy chọn các loại hệ thống',
   'article_validate_has_added' => 'Bài viết này đã được thêm',
   'article_validate_noexist' => 'Không tìm thấy bài viết quy định',
+  'article_validate_title' => '標題長度(1~80字符)不符合要求',
   'article_validate_title' => 'Tiêu đề Chiều dài (1 ~ 80 ký tự) không đáp ứng yêu cầu',
   'attachment_upload' => 'Upload đính kèm',
-  'attachment_upload_comment' => 'Tải lên hình ảnh cho bài viết, nguồn tài nguyên file đính kèm.<br>Sau khi tải lên, bạn cần phải chèn nó vào trong nội dung bài viết có thể được hiển thị.',
   'grab' => 'Hướng dẫn',
   'ignore' => 'Bỏ qua',
   'moderate_article' => 'Đánh giá bài viết',
@@ -183,13 +183,13 @@ $lang = array (
   'no_moderate_push_data' => 'Không cần phải đẩy dữ liệu kiểm toán',
   'push_page' => 'Đẩy trang',
   'push_people' => 'Đẩy bởi',
-  'unused' => 'Không sử dụng',
+  'unused' => 'Unuser',
   'update_block_tips' => 'Dữ liệu được phê duyệt sau khi thêm các module thích hợp sẽ đợi cập nhật',
   'action_invalid' => 'Hãy chọn các hoạt động được thực hiện',
   'all' => 'Tất cả',
   'article_category_move' => 'Di chuyển cột',
   'article_manage' => 'Quản lý bài',
-  'article_new' => 'Bài viết mới',
+  'article_new' => 'Bài mới',
   'article_not_choose' => 'Hãy chọn một bài báo để vận hành',
   'article_operation' => 'Hoạt động',
   'article_subject' => 'Tiêu đề',
@@ -250,7 +250,7 @@ $lang = array (
   'push_updateblock_tips' => 'Đã gia nhập danh sách, các module không được cập nhật ngay lập tức, khi mô-đun này trên trang của bạn được truy cập thì cập nhật được kích hoạt, hãy kiên nhẫn',
   'show_push' => 'Hiển thị đấy',
   'unoperation' => '&minus;',
-  'view_select_mod' => 'Chỉ hiện theo các điều kiện của các module tìm kiếm.。 ',
+  'view_select_mod' => 'Chỉ hiện theo các điều kiện của các module tìm kiếm.',
   'add_by_self' => 'Tự thêm',
   'already_select' => 'Chọn',
   'manage_related_article' => 'Quản lý liên quan đến bài viết',
