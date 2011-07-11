@@ -16,8 +16,8 @@ $lang = array
 	'namepost_info' => 'Nhập ID chủ đề cần xem tác giả',
 	'namepost_info_nonexistence' => 'Hãy xác định bài viết cần xem',
 	'namepost_succeed' => 'Sử dụng thành công',
-	'namepost_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây.',
-	'namepost_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ cho người này',
+	'namepost_info_noperm' => 'Có lỗi, không được phép sử dụng đạo cụ ở đây.',
+	'namepost_info_user_noperm' => 'Có lỗi, bạn không thể sử dụng đạo cụ cho người này',
 	'magic_namepost_succeed' => 'Chưa xác định người sử dụng',
 );
 

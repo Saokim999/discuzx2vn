@@ -17,8 +17,8 @@ $lang = array
 	'anonymouspost_info_nonexistence' => 'Hãy xác định bài viết ẩn danh',
 	'anonymouspost_succeed' => 'Thiết lập ẩn danh thành công',
 	'anonymouspost_use_error' => 'Bạn không thể sử dụng đạo cụ này',
-	'anonymouspost_info_noperm' => 'Xin lỗi, không được phép sử dụng diễn đàn, nơi các chủ đề đạo cụ',
-	'anonymouspost_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ cho người này',
+	'anonymouspost_info_noperm' => 'Có lỗi, không được phép sử dụng diễn đàn, nơi các chủ đề đạo cụ',
+	'anonymouspost_info_user_noperm' => 'Có lỗi, bạn không thể sử dụng đạo cụ cho người này',
 	'anonymouspost_once_limit' => 'Đã được ẩn danh, và có thể tái sử dụng đạo cụ này',
 );
 
