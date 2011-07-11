@@ -19,7 +19,7 @@ $lang = array
 	'jack_num_not_enough' => 'Thiếu hoặc không điền số đạo cụ sử dụng',
 	'jack_info_nonexistence' => 'Xác định chủ đề cần đính',
 	'jack_succeed' => 'Đính lên thành công',
-	'jack_info_noperm' => 'Xin lỗi, không được phép dùng thẻ này ở đây!',
+	'jack_info_noperm' => 'Có lỗi, không được phép dùng thẻ này ở đây!',
 
 	'jack_notification' => 'Chủ đề {subject} của bạn được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
 );

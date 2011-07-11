@@ -66,7 +66,7 @@ $lang = array(
 	'app_path_not_exists' => 'Đường dẫn không tồn tại,Xin vui lòng kiểm tra lại',
 	'pm_send_seccode_error' => 'Mã bảo mật nhập vào sai',
 	'pm_send_regdays_error' => 'Đăng nhập #$pmsendregdays ngày sẽ không thể gửi thông điệp',
-	'pm_send_limit1day_error' => 'Xin lỗi, bạn vượt quá tối đa 24 giờ để gửi một thông điệp ngắn, xin vui lòng trở lại.',
+	'pm_send_limit1day_error' => 'Có lỗi, bạn vượt quá tối đa 24 giờ để gửi một thông điệp ngắn, xin vui lòng trở lại.',
 	'pm_send_floodctrl_error' => 'Xin lỗi thời gian gửi thông điệp quá ngắn, bạn đợi chút...',
 	
 	'file_check_failed' => 'Kiểm tra các tập tin không tồn tại, không thể xác minh',

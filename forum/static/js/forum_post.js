@@ -66,7 +66,7 @@ if(!tradepost) {
 function validate(theform) {
 	var message = wysiwyg ? html2bbcode(getEditorContents()) : (!theform.parseurloff.checked ? parseurl(theform.message.value) : theform.message.value);
 	if(($('postsubmit').name != 'replysubmit' && !($('postsubmit').name == 'editsubmit' && !isfirstpost) && theform.subject.value == "") || !sortid && !special && trim(message) == "") {
-		showError('Xin lỗi, bạn không nhập tiêu đề hoặc nội dung');
+		showError('Có lỗi, bạn không nhập tiêu đề hoặc nội dung');
 		return false;
 	} else if(mb_strlen(theform.subject.value) > 80) {
 		showError('Tiêu đề quá giới hạn 80 ký tự');
@@ -326,7 +326,7 @@ function insertAttach(prefix, id) {
 	}
 	if(extensions != '' && (re.exec(extensions) == null || ext == '')) {
 		reAddAttach(prefix, id);
-		showError('Xin lỗi, tập tin không hỗ trợ phần mở rộng này');
+		showError('Có lỗi, tập tin không hỗ trợ phần mở rộng này');
 		return;
 	}
 	if(prefix == 'img' && imgexts.indexOf(ext) == -1) {
@@ -459,7 +459,7 @@ function updateImageList(action, aids) {
 
 function updateDownImageList(msg) {
 	if(msg == '') {
-		showError('Xin lỗi, không có tập tin đính kèm từ xa');
+		showError('Có lỗi, không có tập tin đính kèm từ xa');
 	} else {
 		ajaxget('forum.php?mod=ajax&action=imagelist&pid=' + pid + '&posttime=' + $('posttime').value + (!fid ? '' : '&fid=' + fid), 'imgattachlist', null, null, null, function(){if(wysiwyg) {editdoc.body.innerHTML = msg;switchEditor(0);switchEditor(1)} else {textobj.value = msg;}});
 		switchImagebutton('imgattachlist');$('imgattach_notice').style.display = '';

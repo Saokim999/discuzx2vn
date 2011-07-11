@@ -18,8 +18,8 @@ $lang = array
 	'close_info' => 'Đóng các chủ đề trong {expiration} giờ, nhập ID chủ đề vào',
 	'close_info_nonexistence' => 'Hãy xác định đối tượng để đóng',
 	'close_succeed' => 'Chủ đề đã được đóng cửa.',
-	'close_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây.',
-	'close_info_user_noperm' => 'Xin lỗi, bạn không thể sử dụng đạo cụ với người này',
+	'close_info_noperm' => 'Có lỗi, không được phép sử dụng đạo cụ ở đây.',
+	'close_info_user_noperm' => 'Có lỗi, bạn không thể sử dụng đạo cụ với người này',
 	'close_notification' => 'Chủ đề của bạn {subject} được {actor} sử dụng {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
 );
 

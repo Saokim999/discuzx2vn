@@ -15,8 +15,8 @@ $lang = array
 	'repent_info' => 'Nhập ID chủ đề cần xóa',
 	'repent_info_nonexistence' => 'Hãy chỉ định để xóa các bài',
 	'repent_succeed' => 'Bài đăng của bạn đã được xóa bỏ',
-	'repent_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây',
-	'repent_info_user_noperm' => 'Xin lỗi, bạn chỉ có thể xóa bài viết của riêng bạn',
+	'repent_info_noperm' => 'Có lỗi, không được phép sử dụng đạo cụ ở đây',
+	'repent_info_user_noperm' => 'Có lỗi, bạn chỉ có thể xóa bài viết của riêng bạn',
 	'repent_do_not_rushreply' => 'Bài viết không thể sử dụng trong sàn nhà, lấy đạo cụ',
 );
 

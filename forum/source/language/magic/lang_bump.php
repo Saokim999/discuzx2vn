@@ -15,7 +15,7 @@ $lang = array
 	'bump_info' => 'Nhập ID chủ đề làm mới',
 	'bump_info_nonexistence' => 'Hãy xác định Chủ đề cần làm mới',
 	'bump_succeed' => 'Chủ đề được làm mới thành công',
-	'bump_info_noperm' => 'Xin lỗi, không được phép dùng thẻ này ở đây!',
+	'bump_info_noperm' => 'Có lỗi, không được phép dùng thẻ này ở đây!',
 
 	'bump_notification' => 'Chủ đề {subject} của bạn được {actor} sử dụng {magicname} <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
 );

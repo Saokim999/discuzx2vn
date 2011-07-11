@@ -16,7 +16,7 @@ $lang = array
 	'checkonline_hidden_message' => '{username} đang ẩn danh, thời gian sự kiện cuối cùng là {time}',
 	'checkonline_online_message' => '{username} đang trực tuyến, thời gian sự kiện cuối cùng là {time}',
 	'checkonline_offline_message' => '{username} không trực tuyến',
-	'checkonline_info_noperm' => 'Xin lỗi, bạn không có quyền xem IP của người này',
+	'checkonline_info_noperm' => 'Có lỗi, bạn không có quyền xem IP của người này',
 	'checkonline_notification' => 'Có người sử dụng {magicname} để kiểm tra trạng thái của bạn',
 );
 

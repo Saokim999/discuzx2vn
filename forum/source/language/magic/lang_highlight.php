@@ -22,7 +22,7 @@ $lang = array
 	'highlight_info_nonexistence_blogid' => 'Hãy xác định blog cần đổi màu tiêu đề',
 	'highlight_succeed_tid' => 'Chủ đề của bạn đã được làm nổi bật',
 	'highlight_succeed_blogid' => 'Blog của bạn đã được làm nổi bật',
-	'highlight_info_noperm' => 'Xin lỗi, không được phép sử dụng đạo cụ ở đây',
+	'highlight_info_noperm' => 'Có lỗi, không được phép sử dụng đạo cụ ở đây',
 	'highlight_info_notype' => 'Lỗi tham số, không chỉ định loại hoạt động',
 
 	'highlight_notification' => 'Chủ đề {subject} của bạn được {actor} dùng {magicname} <a href="forum.php?mod=viewthread&tid={tid}">Xem</a>',
