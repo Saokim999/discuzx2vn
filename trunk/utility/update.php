@@ -32,7 +32,7 @@ $theurl = 'update.php';
 
 $lockfile = DISCUZ_ROOT.'./data/update.lock';
 if(file_exists($lockfile)) {
-	show_msg('Đầu tiên hãy xóa file ./data/update.lock để tiếp tục update.');
+	show_msg('Đầu tiên hãy xóa file ./data/update.lock để tiếp tục update.');
 }
 
 $devmode = file_exists(DISCUZ_ROOT.'./install/data/install_dev.sql');
@@ -78,7 +78,7 @@ if($_GET['step'] == 'start') {
 		show_msg('Vui lòng nâng cấp UCenter lên version 1.6.0 .<br> Nếu bạn sử dụng Discuz! X riêng biệt UCenter，Vui lòng tải UCenter 1.6.0, trong thư mục tiện ích để tìm các quá trình nâng cấp tương ứng, sao chép hoặc tải lên thư mục uc_server trong Discuz! X , sau đó chạy chương trình nâng cấp');
 	} else {
 		show_msg('Giải thích：<br> Quá trình nâng cấp dựa theo file SQL mới nhất, nâng cấp sẽ đồng bộ hóa cơ sở dữ liệu.<br>
-			Hãy chắc chắn rằng thư mục hiện hành ./data/install.sql Thuộc phiên bản mới nhất.<br><br>
+			Hãy chắc chắn rằng thư mục hiện hành ./data/install.sql Thuộc phiên bản mới nhất.<br><br>
 			<a href="'.$theurl.'?step=prepare"> Sẵn sàng tiến hành nâng cấp </a>');
 	}
 
@@ -103,7 +103,7 @@ if($_GET['step'] == 'start') {
 		DB::query("ALTER TABLE ".DB::table('common_failedlogin')." ADD PRIMARY KEY ipusername (ip,username)");
 	}
 	if(!$row = DB::fetch_first("SHOW COLUMNS FROM ".DB::table('forum_forumfield')." LIKE 'seodescription'")) {
-		DB::query("ALTER TABLE ".DB::table('forum_forumfield')." ADD seodescription text NOT NULL default '' COMMENT 'mô tả SEO diễn đàn' AFTER keywords");
+		DB::query("ALTER TABLE ".DB::table('forum_forumfield')." ADD seodescription text NOT NULL default '' COMMENT 'Mô tả SEO diễn đàn' AFTER keywords");
 		DB::query("UPDATE ".DB::table('forum_forumfield')." SET seodescription=description WHERE membernum='0'");
 	}
 	show_msg('Sẵn sàng, bước tiếp theo sẽ nâng cấp cấu trúc cơ sở dữ liệu', $theurl.'?step=sql');
@@ -147,7 +147,7 @@ if($_GET['step'] == 'start') {
 		if(!DB::query($usql, 'SILENT')) {
 			show_msg('Thêm bảng '.DB::table($newtable).' lỗi, hãy tự thực hiện các câu lệnh SQL sau, sau đó chạy lại chương trình nâng cấp:<br><br>'.dhtmlspecialchars($usql));
 		} else {
-			$msg = 'Thêm bảng '.DB::table($newtable).' thành công';
+			$msg = 'Thêm bảng '.DB::table($newtable).' thành công';
 		}
 	} else {
 		$value = DB::fetch($query);
@@ -264,7 +264,7 @@ if($_GET['step'] == 'start') {
 		$value = DB::result_first('SELECT count(*) FROM '.DB::table('common_member_profile_setting')." WHERE fieldid = 'birthdist'");
 		if(!$value) {
 			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthdist', 1, 0, 0, 'Nơi sinh', 'Nơi sinh Quận/Huyện', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
-			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthcommunity', 1, 0, 0, 'Nguyên quán', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
+			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthcommunity', 1, 0, 0, 'Nguyên quán', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Nguyên quán' WHERE fieldid = 'birthcity'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Nơi ở' WHERE fieldid = 'residecity'");
 		}
@@ -275,14 +275,14 @@ if($_GET['step'] == 'start') {
 		$profile = DB::fetch_first('SELECT * FROM '.DB::table('common_member_profile_setting')." WHERE fieldid = 'birthday'");
 		if($profile['title'] == 'Ngày sinh') {
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Sinh nhật' WHERE fieldid = 'birthday'");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='loại văn bản' WHERE fieldid = 'idcardtype'");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Tài khoản Alipay' WHERE fieldid = 'alipay'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Loại giấy tờ' WHERE fieldid = 'idcardtype'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Tài khoản Alipay' WHERE fieldid = 'alipay'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='ICQ' WHERE fieldid = 'icq'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='QQ' WHERE fieldid = 'qq'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='MSN' WHERE fieldid = 'msn'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Alipay use' WHERE fieldid = 'taobao'");
 		}
-		show_msg("Nâng cấp thông tin người dùng thành công", "$theurl?step=data&op=$nextop");
+		show_msg("Nâng cấp thông tin người dùng thành công", "$theurl?step=data&op=$nextop");
 	} elseif($_GET['op'] == 'setting') {
 		$nextop = 'admingroup';
 		$settings = $newsettings = array();
@@ -636,10 +636,10 @@ if($_GET['step'] == 'start') {
 			DB::query("INSERT INTO ".DB::table('common_setting')." VALUES ('article_tags', '$article_tagsnew')");
 		}
 		if(empty($settings['anonymoustext'])) {
-			DB::query("REPLACE INTO ".DB::table('common_setting')." VALUES ('anonymoustext', 'vô danh')");
+			DB::query("REPLACE INTO ".DB::table('common_setting')." VALUES ('anonymoustext', 'Vô danh')");
 		}
 		if(!$word_type_count = DB::result_first("SELECT count(*) FROM ".DB::table('common_word_type')."")) {
-			DB::query("INSERT INTO ".DB::table('common_word_type')." VALUES('1', 'chính trị'),('2', 'quảng cáo')");
+			DB::query("INSERT INTO ".DB::table('common_word_type')." VALUES('1', 'Chính trị'),('2', 'Quảng cáo')");
 		}
 		if(!isset($settings['userreasons'])) {
 			DB::query("INSERT INTO ".DB::table('common_setting')." VALUES ('userreasons', 'Là lực lượng!\r\n Ngựa là những đám mây của Thiên Chúa \r\n như thế này !\r\n Cottage \r\n Calm')");
@@ -655,7 +655,7 @@ if($_GET['step'] == 'start') {
 		}
 
 		if(!DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_addon')." WHERE `key` = '25z5wh0o00' AND siteurl = 'http://addons.discuz.com' LIMIT 1")) {
-			DB::query("REPLACE INTO ".DB::table('common_addon')." (`key`, `title`, `sitename`, `siteurl`, `description`, `contact`, `logo`, `system`) VALUES ('25z5wh0o00', 'Comsenz', 'Discuz! addons', 'http://addons.discuz.com', 'Discuz!Diễn đàn phát triển các plugin mới nhất', 'http://addons.discuz.com/contact', 'http://www.comsenz.com/addon/logo.gif', 1)");
+			DB::query("REPLACE INTO ".DB::table('common_addon')." (`key`, `title`, `sitename`, `siteurl`, `description`, `contact`, `logo`, `system`) VALUES ('25z5wh0o00', 'Comsenz', 'Discuz! addons', 'http://addons.discuz.com', 'Các Plugin Discuz', 'http://addons.discuz.com/contact', 'http://www.comsenz.com/addon/logo.gif', 1)");
 		}
 
 		if(!DB::result_first("SELECT allowreplycredit FROM ".DB::table('common_usergroup_field')." WHERE groupid = 1")) {
@@ -720,7 +720,7 @@ if($_GET['step'] == 'start') {
 	} elseif($_GET['op'] == 'updatecron') {
 		$nextop = 'updatemagic';
 		if(!DB::result_first("SELECT filename FROM ".DB::table('common_cron')." WHERE filename='cron_cleanfeed.php'")) {
-			DB::query("INSERT INTO ".DB::table('common_cron')." VALUES ('', '1','system','Làm sạch sử dụng năng động hết hạn','cron_cleanfeed.php','1269746634','1269792000','-1','-1','0','0')");
+			DB::query("INSERT INTO ".DB::table('common_cron')." VALUES ('', '1','system','Làm sạch các hoạt động hết hạn','cron_cleanfeed.php','1269746634','1269792000','-1','-1','0','0')");
 		}
 
 		if(DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_cron')." WHERE filename='cron_birthday_daily.php'")) {
@@ -731,13 +731,13 @@ if($_GET['step'] == 'start') {
 	} elseif($_GET['op'] == 'updatemagic') {
 		$nextop = 'updatereport';
 		if(DB::result_first("SELECT name FROM ".DB::table('common_magic')." WHERE identifier='highlight'")) {
-			DB::query("UPDATE ".DB::table('common_magic')." SET name='màu thẻ', description='Bạn có thể làm nổi bật tiêu đề của bài viết hoặc các bản ghi, thay đổi màu sắc' WHERE identifier='highlight'");
+			DB::query("UPDATE ".DB::table('common_magic')." SET name='Thẻ tạo mầu', description='Dùng để đổi mầu tiêu đề bài viết' WHERE identifier='highlight'");
 		}
 		if(DB::result_first("SELECT name FROM ".DB::table('common_magic')." WHERE identifier='namepost'")) {
-			DB::query("UPDATE ".DB::table('common_magic')." SET name='Thẻ xác minh', description='Bạn có thể xem danh tính thực sự của thành viên ẩn danh。' WHERE identifier='namepost'");
+			DB::query("UPDATE ".DB::table('common_magic')." SET name='Thẻ danh tính', description='Dùng để xem tên thật của thành viên Vô danh' WHERE identifier='namepost'");
 		}
 		if(DB::result_first("SELECT name FROM ".DB::table('common_magic')." WHERE identifier='anonymouspost'")) {
-			DB::query("UPDATE ".DB::table('common_magic')." SET name='Thẻ ẩn danh', description='Tại các khu vực được chỉ định, bạn sẽ trở nên vô danh.' WHERE identifier='anonymouspost'");
+			DB::query("UPDATE ".DB::table('common_magic')." SET name='Thẻ ẩn danh', description='Tại khu vực chỉ định tên bạn sẽ hiện là Vô danh' WHERE identifier='anonymouspost'");
 		}
 
 		show_msg("Nâng cấp đạo cụ", "$theurl?step=data&op=$nextop");
@@ -856,10 +856,10 @@ if($_GET['step'] == 'start') {
 		if($count) {
 			DB::query("DELETE FROM ".DB::table('common_credit_rule')." WHERE action IN(".dimplode($delrule).")");
 		}
-		DB::update('common_credit_rule', array('rulename' => 'đăng nhập hàng ngày'), "rulename='ngày đăng nhập'");
+		DB::update('common_credit_rule', array('rulename' => 'Đăng nhập hàng ngày'), "rulename='Ngày đăng nhập'");
 		$count = DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_credit_rule')." WHERE action='portalcomment'");
 		if(!$count) {
-			DB::query("INSERT INTO ".DB::table('common_credit_rule')." (`rulename`, `action`, `cycletype`, `cycletime`, `rewardnum`, `norepeat`, `extcredits1`, `extcredits2`, `extcredits3`, `extcredits4`, `extcredits5`, `extcredits6`, `extcredits7`, `extcredits8`, `fids`) VALUES ('bình luận','portalcomment','1','0','40','1','0','1','0','0','0','0','0','0','')");
+			DB::query("INSERT INTO ".DB::table('common_credit_rule')." (`rulename`, `action`, `cycletype`, `cycletime`, `rewardnum`, `norepeat`, `extcredits1`, `extcredits2`, `extcredits3`, `extcredits4`, `extcredits5`, `extcredits6`, `extcredits7`, `extcredits8`, `fids`) VALUES ('Bình luận','portalcomment','1','0','40','1','0','1','0','0','0','0','0','0','')");
 		}
 
 		show_msg("Nâng cấp tích hợp đầy đủ", "$theurl?step=data&op=$nextop");
@@ -887,8 +887,8 @@ if($_GET['step'] == 'start') {
 				DB::query("UPDATE ".DB::table('forum_thread')." SET stamp='$row[stamp]' WHERE tid='$row[tid]'", 'UNBUFFERED');
 			}
 		}
-		DB::query("REPLACE INTO ".DB::table('common_smiley')." (id, typeid, displayorder, type, code, url) VALUES ('83','4','9','stamp','Sửa đổi cách sử dụng','010.gif')");
-		DB::query("REPLACE INTO ".DB::table('common_smiley')." (id, typeid, displayorder, type, code, url) VALUES ('84','0','18','stamplist','Sửa đổi cách sử dụng','010.small.gif')");
+		DB::query("REPLACE INTO ".DB::table('common_smiley')." (id, typeid, displayorder, type, code, url) VALUES ('83','4','9','stamp','Sửa đổi','010.gif')");
+		DB::query("REPLACE INTO ".DB::table('common_smiley')." (id, typeid, displayorder, type, code, url) VALUES ('84','0','18','stamplist','Sửa đổi','010.small.gif')");
 		require_once libfile('function/cache');
 		updatecache('stamps');
 		updatecache('stamptypeid');
@@ -936,7 +936,7 @@ if($_GET['step'] == 'start') {
 				}
 			}
 		}
-		show_msg("hoàn tất cho phép nâng cấp mô-đun", "$theurl?step=data&op=$nextop");
+		show_msg("Hoàn tất cho phép nâng cấp mô-đun", "$theurl?step=data&op=$nextop");
 	} elseif($_GET['op'] == 'portalcategory_permission') {
 		$nextop = 'portal_comment';
 		if(!DB::result_first('SELECT inheritedcatid FROM '.DB::table('portal_category_permission')." WHERE inheritedcatid > '0' LIMIT 1")) {
@@ -953,7 +953,7 @@ if($_GET['step'] == 'start') {
 				}
 			}
 		}
-		show_msg("nâng cấp cổng truy cập kênh hoàn tất", "$theurl?step=data&op=$nextop");
+		show_msg("Nâng cấp cổng truy cập kênh hoàn tất", "$theurl?step=data&op=$nextop");
 	} elseif($_GET['op'] == 'portal_comment') {
 		$nextop = 'portal_article_cover_img';
 		$one = DB::fetch_first('SELECT * FROM '.DB::table('portal_comment')." WHERE id=0 AND idtype='' LIMIT 1");
@@ -1101,7 +1101,7 @@ if($_GET['step'] == 'start') {
 	} elseif($_GET['op'] == 'pm') {
 		$nextop = 'allowgetimage';
 		DB::query("UPDATE ".DB::table('common_member')." SET newpm='0'");
-		show_msg("hoàn tất việc thiết lập lại trạng thái tin nhắn SMS", "$theurl?step=data&op=$nextop");
+		show_msg("Hoàn tất việc thiết lập lại trạng thái tin nhắn SMS", "$theurl?step=data&op=$nextop");
 
 	} elseif($_GET['op'] == 'allowgetimage') {
 		$nextop = 'verify';
@@ -1132,7 +1132,7 @@ if($_GET['step'] == 'start') {
 		$updateverify = $_GET['updateverify'] ? true : false;
 		if(!isset($verifys[6])) {
 			$verifys[6] = array(
-					'title' => 'Xác nhận tên thật',
+					'title' => 'Xác nhận tên thật',
 					'available' => $settings['realname'],
 					'showicon' => 0,
 					'viewrealname' => 0,
@@ -1140,7 +1140,7 @@ if($_GET['step'] == 'start') {
 					'icon' => ''
 				);
 			$verifys[7] = array(
-					'title' => 'video chứng nhận',
+					'title' => 'Video chứng nhận',
 					'available' => $settings['videophoto'],
 					'showicon' => 0,
 					'viewvideophoto' => $settings['video_allowviewspace'],
@@ -1659,7 +1659,7 @@ function show_header() {
 	<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=$config[charset]" />
-	<title> 数据库升级程序 </title>
+	<title> Nâng cấp Discuz X1.5 lên X2 </title>
 	<style type="text/css">
 	* {font-size:12px; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 1.5em; word-break: break-all; }
 	body { text-align:center; margin: 0; padding: 0; background: #F5FBFF; }
