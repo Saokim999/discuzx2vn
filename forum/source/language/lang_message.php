@@ -163,7 +163,7 @@ $lang = array (
   'there_is_no_record_of_invitation_specified' => 'Nhận lời mời của các bản ghi mà bạn chọn không tồn tại',
   'no_color_yet' => 'Có lỗi, Việc bạn sử dụng thông tin này hiện vẫn chưa có màu sáng',
   'message_can_not_send_onlyfriend' => 'Có lỗi, Người sử dụng chỉ được gửi một tin nhắn ngắn cho bạn bè',
-  'message_can_not_send_2' => 'Gửi tin nhắn 2 lần liên tiếp, xin vui lòng chờ đợi trước khi gửi',
+  'message_can_not_send_2' => 'Bạn gửi tin 2 lần liên tiếp, vui lòng chờ đợi để gửi lại',
   'message_can_not_send_9' => 'Tin nhắn trống hoặc chưa có người nhận',
   'pm_report_error_nopm' => 'Có lỗi, Tin ngắn mà bạn chỉ định không tồn tại',
   'no_privilege_sendpm' => 'Có lỗi, Hiện tại bạn không được phép gửi PM, <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
