@@ -2720,7 +2720,7 @@ $lang = array (
   array (
     'index' =>
     array (
-      '道具中心' => 'action=magics',
+      'Thẻ VIP' => 'action=magics',
     ),
     'text' =>
     array (
