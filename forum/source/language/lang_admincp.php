@@ -2733,7 +2733,7 @@ $lang = array
 	'members_edit_addsize' => 'Thêm không gian đính kèm',
 	'members_edit_addfriend' => 'Thêm không gian bạn bè',
 	'members_edit_statistics' => 'Thống kê',
-	'members_edit_uinblack' => '封禁QQ帐号',
+	'members_edit_uinblack' => 'Cấm tài khoản QQ',
 	'members_edit_uinblack_comment' => '把当前用户的QQ帐号封锁，封禁后此QQ帐号无法再登录本站点',
 	'members_edit_uinblack_notice' => '<br /><font color="red">警告: 当前用户未设置独立密码，被封禁后将无法登录本站</font>',
 	'members_edit_unbind' => '解除QQ帐号绑定状态',
