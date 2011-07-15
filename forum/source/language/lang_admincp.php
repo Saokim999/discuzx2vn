@@ -631,10 +631,10 @@ $lang = array
 	'setting_access_register_close' => 'Đóng đăng ký',
 	'setting_access_register_open' => 'Đăng ký thường',
 	'setting_access_register_invite' => 'Đăng ký qua mã mời',
-	'setting_access_register_connect' => 'mở QQ lên',
-	'setting_access_register_invite_buy' => 'Được phép mua hàng đầu lời mời mã',
+	'setting_access_register_connect' => 'Đăng ký qua tài khoản QQ',
+	'setting_access_register_invite_buy' => 'Cho phép mua mã mời đăng ký',
 	'setting_access_register_invite_buy_comment' => 'Cho phép khách truy cập để mua top-up thông qua một mã số lời mời trực tuyến. Tổng đăng ký được giới hạn trong việc đóng cửa có hiệu quả. Hãy chắc chắn để mở<a href="'.ADMINSCRIPT.'?frames=yes&action=setting&operation=ec" target="_blank"><strong>thương mại điện tử</strong></a> và <a href="'.ADMINSCRIPT.'?frames=yes&action=setting&operation=mail" target="_blank"><strong>thiết lập và hoạt động</strong></a>bình thường',
-	'setting_access_register_invite_buyprice' => 'Lời mời Mã Giá(RMB)',
+	'setting_access_register_invite_buyprice' => 'Giá mua mã mời(Điểm)',
 	'setting_access_register_invite_buyprompt' => 'Mời lên hướng dẫn',
 	'setting_access_register_invite_credit' => 'Mời các thành viên mới lên điểm thưởng bằng cách sử dụng kéo dài',
 	'setting_access_register_invite_credit_comment' => 'Mời các phần mở rộng mới đăng ký sử dụng bởi các phần thưởng điểm thành viên, bao gồm cả ưu đãi để mời mọi người được mời và các điểm thưởng.',
@@ -668,9 +668,9 @@ $lang = array
 	'setting_access_register_connect_newbiespan_comment' => 'QQ đăng ký người dùng thông qua thời gian này thông tin sẽ không được công bố, không ảnh hưởng đến người điều hành và quản trị viên, 0 để không có giới hạn, để trống để sử dụng các cài đặt toàn cầu',
     'setting_access_register_advanced' => 'Hiển thị tùy chọn nâng cao',
 	'setting_access_register_advanced_comment' => 'Tùy chọn có hiển thị nội dung trang web đăng ký',
-	'setting_access_register_name' => 'Địa chỉ đăng ký',
-	'setting_access_register_name_comment' => 'Thiết lập các trang web lên mod địa chỉ, mặc định là "register", Sửa đổi tên của phần mềm giúp ngăn chặn các thủy lợi, không giống như các phiên bản X Discuz! Trước khi thay đổi cài đặt này, không sửa đổi bất kỳ tên file, bạn chỉ có thể thay đổi trong',
-	'setting_access_register_link_name' => 'Tên đăng ký',
+	'setting_access_register_name' => 'Địa chỉ file đăng ký',
+	'setting_access_register_name_comment' => 'Mặc định là "register" bạn có thể sửa sang tên khác như dangky.php và sửa tên file trên host để hạn chế các bot spam tự động',
+	'setting_access_register_link_name' => 'Tiêu đề đăng ký',
 	'setting_access_register_link_name_comment' => 'Thiết lập hiển thị đăng ký trên site, mặc định "Đăng ký"',
 
 	'setting_access_access' => 'Access Control',
@@ -4653,8 +4653,8 @@ $lang = array
 
 
 
-	'magics' => '道具中心',
-	'magics_tips' => '<li>安装新的道具，需将道具脚本程序上传到 source/class/magic/ 目录，然后即可在以下列表中使用了。</li><li>插件开发人员在设计新的道具前请务必仔细阅读《<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
+	'magics' => 'Thẻ VIP',
+	'magics_tips' => '<li>Cài đặt thêm thẻ VIP bạn cần up lên source/class/magic/，Sau đó bạn có thể sử dụng danh sách dưới đây.</li><li>Ứng dụng ngoài bạn cần cẩn thân khi dùng <a href="http://dev.discuz.org/wiki" target="_blank">Discuz! Thư viện</a></li>',
 
 	'magics_config' => 'Thiết đặt cơ bản:', 
 	'magics_config_open' => 'Mở chức năng công cụ:', 
