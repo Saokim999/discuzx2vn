@@ -98,7 +98,7 @@ $lang = array(
 	'block4' => 'Kiểu 4',
 	'block5' => 'Kiểu 5',
 	'blockdata' => array('personalinfo' => 'Hồ sơ', 'profile' => 'Avatar', 'doing' => 'Status', 'feed' => 'Tin tức',
-				'blog' => 'Blog', 'stickblog' => 'Top', 'album' => 'Album', 'friend' => 'Bạn bè',
+				'blog' => 'Blog', 'stickblog' => 'Đính', 'album' => 'Album', 'friend' => 'Bạn bè',
 				'visitor' => 'Khách thăm', 'wall' => 'Tường', 'share' => 'Chia sẻ',
 				'thread' => 'Chủ đề', 'group'=>$_G[setting][navs][3][navname],'music'=>' Âm nhạc',
 				'statistic' => 'Thống kê','myapp' => 'Ứng dụng',

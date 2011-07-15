@@ -4,7 +4,7 @@
 	<dl>
 		<dt class="ptn">{$space[username]}</dt>
 		<dd>
-			<a href="home.php?mod=space&uid=$space[uid]">{$space[username]}{lang somebody_space}</a>
+			<a href="home.php?mod=space&uid=$space[uid]">{lang somebody_space} {$space[username]}</a>
 			<!--{if $_G['home_tpl_spacemenus']}-->
 				<!--{loop $_G['home_tpl_spacemenus'] $value}--> <em>&rsaquo;</em> $value<!--{/loop}-->
 			<!--{/if}-->
