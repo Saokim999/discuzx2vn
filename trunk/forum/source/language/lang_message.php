@@ -837,7 +837,7 @@ $lang = array (
   'no_privilege_ckpassword_blog' => 'Có lỗi, Bạn nhập sai mật khẩu không thể nhận xét về bản ghi này',
   'do_not_accept_comments' => 'Có lỗi,  không chấp nhận ý kiến',
   'sharing_does_not_exist' => 'Có lỗi, chia sẻ không tồn tại',
-  'note_wall_reply_success' => 'Đã trở lại {username} Tin hội đồng quản trị',
+  'note_wall_reply_success' => 'Bạn đã trả lời {username}',
 
   'not_in_mobile' => 'Bạn đang truy cập vào phiên bản đầy đủ, bạn vẫn muốn tiếp tục?',
   'submit_secqaa_invalid' => 'Có lỗi, điền xác nhận lỗi',
