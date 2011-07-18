@@ -88,7 +88,7 @@ while ($space = $db_source->fetch_array($query)) {
 	}
 
 	if(empty($home['extcredits']['credit']) || empty($home['extcredits']['experience'])) {
-		showmessage("发生错误，请配置积分对应关系信息");
+		showmessage("Error, configure the mapping information integration");
 	}
 
 	$setarr[$home['extcredits']['credit']] = $space['credit'] + intval($newspace[$home['extcredits']['credit']]);

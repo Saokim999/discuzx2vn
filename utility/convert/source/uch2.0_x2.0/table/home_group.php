@@ -194,7 +194,7 @@ function getprofield($start) {
 	global $db_source, $db_target, $fieldid, $gid, $fid, $tagid;
 
 	if(!$gid) {
-		$gid = $db_target->insert('forum_forum', array('type' => 'group', 'name' => '空间群组', 'status' => 3), 1);
+		$gid = $db_target->insert('forum_forum', array('type' => 'group', 'name' => 'Nhóm', 'status' => 3), 1);
 		$db_target->insert('forum_forumfield', array('fid' => $gid));
 	}
 
