@@ -24,8 +24,8 @@ if(!empty($eventfid)) {
 	}
 }
 if(empty($eventfid)) {
-	$board_name = 'UCHome数据';
-	$forum_name = 'UCHome活动';
+	$board_name = 'Dữ liệu UCHome';
+	$forum_name = 'Hoạt động UCHome';
 	$value = $db_target->fetch_first('SELECT fid FROM '.$db_target->table_name('forum_forum')." WHERE type='forum' AND status='1' AND `name`='$forum_name'");
 	if(!empty($value)) {
 		$eventfid = intval($value['fid']);
@@ -53,7 +53,7 @@ if(empty($eventfid)) {
 		$eventfid = $db_target->insert('forum_forum', $forum, true);
 		$forumfield = array(
 			'fid' => $eventfid,
-			'description' => '从 UCenter Home 转移过来的活动内容'
+			'description' => 'UCenter Home transferred from the activities'
 		);
 		$db_target->insert('forum_forumfield', $forumfield);
 	}

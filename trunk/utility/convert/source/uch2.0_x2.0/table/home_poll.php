@@ -17,7 +17,7 @@ $start = intval(getgpc('start'));
 $home = load_process('home');
 $fid = intval(getgpc('fid')) ? intval(getgpc('fid')) : intval($home['forum']['poll']) ? intval($home['forum']['poll']) : 0;
 if(!$fid) {
-	$forumname = 'UCHome投票数据';
+	$forumname = 'Bình chọn';
 
 	$value = $db_target->fetch_first('SELECT fid FROM '.$db_target->table_name('forum_forum')." WHERE status IN('1','2') AND type='forum' AND `name`='$forumname'");
 	if(!empty($value)) {
@@ -46,7 +46,7 @@ if(!$fid) {
 		$fid = $db_target->insert('forum_forum', $forum, true);
 		$forumfield = array(
 			'fid' => $fid,
-			'description' => '从 UCenter Home 转移过来的投票内容'
+			'description' => 'Chuyển nội dung bình chọn'
 		);
 		$db_target->insert('forum_forumfield', $forumfield);
 	}
