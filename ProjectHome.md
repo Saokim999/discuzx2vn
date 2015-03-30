@@ -1,0 +1,2 @@
+Được hoàn thiện từ bản Discuz X2 của nhóm DZV dịch. Chỉnh sửa lỗi chữ tầu còn sót, dịch cho đúng và chuẩn nghĩa, rút gọn cho phù hợp giao diện, chỉnh css... Trước hết là để TTYB dùng và chia sẻ cho các bạn yêu thích Discuz
+Hỗ trợ: http://traitimyenbai.net
